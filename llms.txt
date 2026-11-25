@@ -1,0 +1,30 @@
+# Robin Sports
+
+Robin Sports is a custom clothing manufacturer for small brands, clubs and schools.
+We make hoodies, jackets, t-shirts, polo shirts, varsity jackets, leather jackets,
+tracksuits and team uniforms with embroidery, screen printing, sublimation, DTG,
+foil print, chenille patches and private label.
+
+## Product pages
+- Team Uniforms: https://robinsports70.github.io/soccer-uniforms.html
+- Basketball Uniforms: https://robinsports70.github.io/basketball-uniforms.html
+- Hoodies: https://robinsports70.github.io/hoodies.html
+- School Leavers Hoodies: https://robinsports70.github.io/leavers-hoodies.html
+- T-Shirts: https://robinsports70.github.io/t-shirts.html
+- All Products: https://robinsports70.github.io/products.html
+- Services: https://robinsports70.github.io/services.html
+- Blog: https://robinsports70.github.io/blog.html
+- About: https://robinsports70.github.io/about.html
+- Contact: https://robinsports70.github.io/contact.html
+
+## Links
+- Website: https://robinsports70.github.io/
+- Instagram: https://www.instagram.com/robinsports70
+- YouTube: https://www.youtube.com/@RobinSports-w5n
+- Blog: https://robinsports70.blogspot.com
+- Pinterest: https://www.pinterest.com/robinsports70/
+
+## Contact
+- WhatsApp: +92 304 3134792
+- Email: robinsports70@gmail.com
+- Instagram DM: 'CUSTOM' to @robinsports70
