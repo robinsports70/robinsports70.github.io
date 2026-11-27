@@ -6,133 +6,364 @@
 <meta name="google-site-verification" content="dNk-ezl0W-Sc_Tn0RP5AHubM5fM9qmnWfhG1NaIv5ww" />
 <title>Robin Sports — Custom Clothing Manufacturer | Hoodies, Varsity Jackets, Team Uniforms</title>
 <meta name="description" content="Robin Sports is a custom clothing manufacturer for small brands, clubs and schools. Custom hoodies, varsity jackets, t-shirts, polos, dresses, team uniforms and tracksuits with embroidery, print, sublimation and private label. Worldwide shipping.">
-<style>* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family:'Segoe UI', Arial, Helvetica, sans-serif; color:#e8e8e8; background:#050505; line-height:1.65; }
-::selection { background:#f39c2c; color:#000; }
-header { background:rgba(0,0,0,.96); color:#fff; padding:12px 22px; display:flex; align-items:center; gap:14px; flex-wrap:wrap; position:sticky; top:0; z-index:50; border-bottom:1px solid #1e1e24; }
-header img { width:50px; height:50px; border-radius:50%; }
-header .name { font-family:'Archivo Narrow','Arial Narrow','Liberation Sans Narrow','Segoe UI',sans-serif; font-size:23px; font-weight:800; letter-spacing:1.5px; }
-header .name span { color:#f39c2c; }
-header nav { margin-left:auto; }
-header nav a { color:#ddd; text-decoration:none; margin-left:20px; font-size:15px; font-weight:600; text-transform:uppercase; letter-spacing:.5px; transition:color .25s ease; }
-header nav a:hover, header nav a.active { color:#f39c2c; }
-.eyebrow { color:#f39c2c; font-weight:800; text-transform:uppercase; letter-spacing:2px; font-size:13px; margin-bottom:8px; }
-h1, h2 { font-family:'Archivo Narrow','Arial Narrow','Liberation Sans Narrow','Segoe UI',sans-serif; font-weight:800; line-height:1.15; color:#fff; letter-spacing:.4px; }
-h2 { font-size:34px; margin-bottom:12px; }
-.btn { display:inline-block; background:#f39c2c; color:#000; font-weight:800; padding:13px 30px; border-radius:50px; text-decoration:none; text-transform:uppercase; font-size:14px; letter-spacing:.5px; transition:background .25s ease, transform .25s ease, color .25s ease; }
-.btn:hover { background:#ffb84d; transform:translateY(-2px); }
-.btn-outline { background:transparent; color:#fff; border:2px solid #fff; }
-.btn-outline:hover { background:#fff; color:#000; }
-.btn-dark { background:#17171c; color:#fff; border:1px solid #2c2c34; }
-.btn-dark:hover { background:#22222a; color:#f39c2c; }
-section { padding:64px 22px; }
-.wrap { max-width:1120px; margin:0 auto; }
-.center { text-align:center; }
-.dark { background:#000; color:#fff; }
-.dark p { color:#b9b9b9; }
-.grey { color:#a9a9a9; }
-.grey strong { color:#e6e6e6; }
-p a:not(.btn), li a:not(.btn) { color:#f5a83d; }
-.slider { position:relative; background:#000; overflow:hidden; }
-.slide { display:none; }
-.slide.on { display:flex; flex-wrap:wrap; }
-.slide .panel { background:#f39c2c; color:#000; flex:1 1 320px; padding:56px 40px; display:flex; flex-direction:column; justify-content:center; }
-.slide .panel h2 { color:#000; font-size:40px; text-transform:uppercase; margin-bottom:10px; }
-.slide .panel p { font-weight:600; max-width:420px; }
-.slide img { flex:1 1 380px; width:50%; min-height:320px; object-fit:cover; }
-.dots { text-align:center; padding:12px; background:#000; }
-.dots span { display:inline-block; width:11px; height:11px; border-radius:50%; background:#555; margin:0 5px; cursor:pointer; }
-.dots span.on { background:#f39c2c; }
-.hero-black { background:#000; color:#fff; text-align:center; padding:64px 22px; }
-.hero-black h1 { font-size:44px; text-transform:uppercase; max-width:880px; margin:0 auto 16px; }
-.hero-black h1 span { color:#f39c2c; }
-.hero-black p { color:#b9b9b9; max-width:720px; margin:0 auto 26px; }
-.hero-black .row { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
-.split { display:flex; flex-wrap:wrap; gap:34px; align-items:center; }
-.split img { flex:1 1 320px; width:100%; max-width:520px; border-radius:14px; }
-.split .txt { flex:1 1 320px; }
-.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:22px; margin-top:30px; }
-.scard { border-radius:14px; overflow:hidden; background:#101014; border:1px solid #232329; transition:border-color .3s ease, transform .3s ease; }
-.scard:hover { border-color:#f39c2c; transform:translateY(-4px); }
-.scard img { width:100%; height:210px; object-fit:cover; display:block; transition:transform .5s ease; }
-.scard:hover img { transform:scale(1.05); }
-.scard div { padding:20px; }
-.scard h3 { color:#fff; font-size:19px; margin-bottom:6px; }
-.scard p { color:#b9b9b9; font-size:14px; margin-bottom:16px; }
-.pcard { border-radius:14px; overflow:hidden; background:#121218; border:1px solid #232329; transition:border-color .3s ease, transform .3s ease; }
-.pcard:hover { border-color:#f39c2c; transform:translateY(-4px); }
-.pcard img { width:100%; height:230px; object-fit:cover; display:block; transition:transform .5s ease; }
-.pcard:hover img { transform:scale(1.05); }
-.pcard div { padding:20px; }
-.pcard h3 { color:#fff; font-size:19px; margin-bottom:6px; }
-.pcard p { color:#b9b9b9; font-size:14px; margin-bottom:16px; }
-.three { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:26px; margin-top:30px; }
-.three h3 { font-size:20px; margin-bottom:8px; color:#fff; }
-.three p { color:#a9a9a9; }
-.step b { display:inline-block; background:#f39c2c; color:#000; width:44px; height:44px; line-height:44px; border-radius:50%; font-size:19px; margin-bottom:10px; text-align:center; }
-.cta-banner { background:url('images/hero.webp') center/cover; position:relative; text-align:center; padding:90px 22px; color:#fff; }
-.cta-banner::before { content:''; position:absolute; inset:0; background:rgba(0,0,0,.68); }
-.cta-banner .wrap { position:relative; }
-.cta-banner h2 { font-size:36px; margin-bottom:20px; text-transform:uppercase; }
-.factory { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; margin-top:26px; }
-.factory img { width:100%; height:250px; object-fit:cover; border-radius:14px; display:block; }
-.page-banner { background:url('images/hero.webp') center/cover; position:relative; text-align:center; padding:80px 22px; color:#fff; }
-.page-banner::before { content:''; position:absolute; inset:0; background:rgba(0,0,0,.66); }
-.page-banner h1 { position:relative; font-size:42px; text-transform:uppercase; }
-footer { background:#000; color:#aaa; padding:52px 22px 0; border-top:1px solid #1e1e24; }
-footer .cols { max-width:1120px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:28px; }
-footer h4 { color:#fff; font-size:17px; margin-bottom:12px; }
-footer a { color:#aaa; text-decoration:none; display:block; margin-bottom:8px; font-size:14px; transition:color .25s ease; }
-footer a:hover { color:#f39c2c; }
-footer p { font-size:14px; }
-footer .brand { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
-footer .brand img { width:46px; height:46px; border-radius:50%; }
-footer .brand b { color:#fff; font-size:18px; }
-footer .bottom { border-top:1px solid #222; text-align:center; padding:18px; margin-top:36px; font-size:13px; }
-.ig-float { position:fixed; right:0; top:45%; background:#f39c2c; color:#000; font-weight:800; padding:12px 10px; border-radius:8px 0 0 8px; text-decoration:none; writing-mode:vertical-rl; letter-spacing:1px; font-size:13px; z-index:60; }
-.info-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:20px; margin-top:26px; }
-.info-cards div { background:#121218; border:1px solid #232329; border-radius:12px; padding:24px; text-align:center; }
-.info-cards h3 { color:#fff; margin-bottom:6px; }
-.info-cards p { color:#a9a9a9; font-size:14px; }
-.rv { opacity:0; transform:translateY(22px); transition:opacity .6s ease, transform .6s ease; }
-.rv.in { opacity:1; transform:none; }
-@media (max-width:640px){ .hero-black h1{font-size:31px;} h2{font-size:27px;} .slide .panel h2{font-size:30px;} header nav a{margin-left:12px; font-size:13px;} header nav{margin-left:0;} .grid{grid-template-columns:1fr;} .page-banner h1{font-size:30px;} .page-banner{padding:56px 18px;} section{padding:46px 18px;} }
-@media (prefers-reduced-motion: reduce){ .rv{opacity:1; transform:none; transition:none;} .scard,.pcard,.btn,.scard img,.pcard img{transition:none;} }
-.wa-float { position:fixed; left:16px; bottom:16px; background:#25D366; color:#fff; font-weight:700; padding:13px 20px; border-radius:50px; text-decoration:none; font-size:15px; z-index:60; box-shadow:0 4px 14px rgba(0,0,0,.3); }
-.hero { position:relative; background:#000; color:#fff; overflow:hidden; }
-.hero>img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; animation:heroZoom 20s ease-in-out infinite alternate; }
-@keyframes heroZoom { from{transform:scale(1);} to{transform:scale(1.09);} }
-.hero::after { content:''; position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,.5), rgba(0,0,0,.28) 42%, rgba(5,5,5,.94)); }
-.hero .hwrap { position:relative; z-index:2; max-width:1120px; margin:0 auto; padding:104px 22px 88px; }
-.mega { font-family:'Archivo Narrow','Arial Narrow','Liberation Sans Narrow','Segoe UI',sans-serif; font-size:clamp(56px,11vw,126px); font-weight:800; line-height:.95; letter-spacing:1px; text-transform:uppercase; color:#fff; }
-.mega span { color:#f39c2c; }
-.hero h1 { font-size:clamp(23px,3.4vw,38px); text-transform:uppercase; max-width:840px; margin:20px 0 14px; }
-.hero h1 span { color:#f39c2c; }
-.hero p { color:#d3d3d3; max-width:680px; margin-bottom:28px; font-size:17px; }
-.hero .row { display:flex; gap:14px; flex-wrap:wrap; }
-.marquee { background:#f39c2c; color:#000; overflow:hidden; padding:12px 0; }
-.mq-track { display:inline-flex; white-space:nowrap; font-family:'Archivo Narrow','Arial Narrow','Liberation Sans Narrow','Segoe UI',sans-serif; font-weight:800; letter-spacing:2px; font-size:17px; text-transform:uppercase; animation:mq 26s linear infinite; will-change:transform; }
-@keyframes mq { to{transform:translateX(-50%);} }
-.mq-track span { padding:0 16px; }
-.cat { border-top:1px solid #16161b; }
-.cat:nth-of-type(odd) { background:#0a0a0d; }
-.cat-flex { display:flex; flex-wrap:wrap; gap:34px; align-items:stretch; }
-.cat-media { flex:1 1 320px; min-height:400px; border-radius:14px; overflow:hidden; border:1px solid #232329; }
-.cat-media img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .6s ease; }
-.cat-media:hover img { transform:scale(1.04); }
-.cat:nth-of-type(even) .cat-media { order:2; }
-.cat-txt { flex:1 1 340px; display:flex; flex-direction:column; justify-content:center; }
-.cat-txt p { color:#a9a9a9; margin-bottom:16px; }
-.cat-txt .row { display:flex; gap:12px; flex-wrap:wrap; margin-top:6px; }
-.gal { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:28px; }
-.gal figure { background:#101014; border:1px solid #232329; border-radius:12px; overflow:hidden; transition:border-color .3s ease; }
-.gal figure:hover { border-color:#f39c2c; }
-.gal img { width:100%; height:230px; object-fit:cover; display:block; }
-.gal figcaption { padding:10px 14px; color:#b9b9b9; font-size:13.5px; }
-.strip { background:#0b0b0e; border-block:1px solid #1e1e24; text-align:center; padding:30px 22px; font-family:'Archivo Narrow','Arial Narrow','Liberation Sans Narrow','Segoe UI',sans-serif; font-size:clamp(17px,2.6vw,24px); font-weight:800; letter-spacing:3px; text-transform:uppercase; color:#fff; }
-.strip span { color:#f39c2c; }
-@media (max-width:640px){ .gal{grid-template-columns:1fr 1fr;} .gal img{height:170px;} .cat-media{min-height:300px;} .cat:nth-of-type(even) .cat-media{order:0;} .hero .hwrap{padding:66px 18px 56px;} }
-@media (prefers-reduced-motion: reduce){ .hero>img{animation:none;} .mq-track{animation:none;} .cat-media img{transition:none;} }
+<style>
+/* Robin Sports — design system mirrored on the reference composition:
+   warm paper ground, near-black ink, one bright accent (RS orange). */
+:root{
+  --paper:#f3f1eb; --card:#fff; --panel:#fbfaf6; --panel2:#ecebe6;
+  --ink:#121211; --ink2:#1a1914; --muted:#6b6860; --body-c:#3d3b36; --line:#dcd8cd;
+  --acc:#f39c2c; --acc-ink:#231600; --gold:#9a6a00;
+  --display:"Anton","Impact","Arial Narrow Bold","Franklin Gothic Medium","Helvetica Neue",sans-serif;
+  --body:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --gut:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font:16px/1.55 var(--body);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-transform:uppercase;line-height:.9;letter-spacing:.005em;text-wrap:balance}
+::selection{background:var(--acc);color:var(--acc-ink)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.wrap{max-width:1320px;margin:0 auto;padding-left:var(--gut);padding-right:var(--gut)}
+.eyebrow{font:600 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.eyebrow b{color:var(--ink);font-weight:600;background:linear-gradient(transparent 55%,var(--acc) 55%)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 22px;border-radius:999px;font:700 13px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:1.5px solid var(--ink);cursor:pointer;background:transparent;color:var(--ink);transition:transform .2s cubic-bezier(.2,.8,.2,1),background .2s,color .2s,border-color .2s}
+.btn:active{transform:scale(.97)}
+.btn-k{background:var(--ink);color:#fff}
+.btn-k:hover{background:#000}
+.btn-o{background:transparent;color:var(--ink)}
+.btn-o:hover{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.btn-a{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.btn-a:hover{background:#fff;border-color:#fff;color:var(--ink)}
+/* ---------- header ---------- */
+.hdr{position:sticky;top:0;z-index:50;background:rgba(243,241,235,.9);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hdr .wrap{display:flex;align-items:center;gap:18px;padding-block:12px;flex-wrap:wrap}
+.hdr .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.hdr .brand img{width:46px;height:46px;border-radius:50%}
+.hdr .brand .nm{font:400 24px/.9 var(--display);letter-spacing:.03em;text-transform:uppercase}
+.hdr .brand .nm span{color:var(--acc)}
+.hdr nav{margin-left:auto;display:flex;flex-wrap:wrap;gap:2px 4px}
+.hdr nav a{font:600 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;padding:10px 11px;border-radius:999px;color:var(--muted);transition:background .2s,color .2s}
+.hdr nav a:hover{color:var(--ink)}
+.hdr nav a.on{background:var(--ink);color:#fff}
+.hdr .hq{margin-left:6px}
+/* ---------- hero ---------- */
+.hero{padding-top:clamp(40px,7vw,96px);padding-bottom:clamp(28px,4vw,48px);display:grid;gap:22px}
+@media (min-width:990px){.hero{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);align-items:start;gap:48px}}
+.hero-copy{display:grid;gap:22px;align-content:center}
+.kicker{font:600 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.kicker b{color:var(--ink);font-weight:600;background:linear-gradient(transparent 55%,var(--acc) 55%)}
+.h-display{font-size:clamp(48px,8.2vw,132px);max-width:12ch}
+.lead{max-width:56ch;color:var(--body-c);font-size:clamp(16px,1.6vw,19px)}
+.ctas{display:flex;flex-wrap:wrap;gap:10px}
+.facts{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.facts li{font:500 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:9px 12px;background:#fbfaf6}
+.facts b{font-weight:600}
+.hero-art{position:relative;width:100%;max-width:440px;margin:4px auto 0}
+@media (min-width:990px){.hero-art{max-width:none;margin:0}}
+.hero-art .ph{border-radius:18px;overflow:hidden;background:radial-gradient(circle at 50% 35%,#fbfaf6,#e9e7e0);border:1px solid var(--line)}
+.hero-art .ph img{width:100%;height:100%;aspect-ratio:4/4.6;object-fit:cover}
+.tag{position:absolute;z-index:3;font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;background:var(--acc);color:var(--acc-ink);padding:8px 10px;border-radius:4px;white-space:nowrap;animation:bob 5s ease-in-out infinite}
+.tag.t1{left:-8px;top:12%;transform:rotate(-4deg)}
+.tag.t2{right:-6px;bottom:14%;transform:rotate(3deg);animation-delay:-2.5s}
+@keyframes bob{50%{margin-top:-8px}}
+.mini{display:none}
+@media (min-width:990px){
+  .mini{display:flex;gap:16px;justify-content:space-between;padding-bottom:10px}
+  .mini .mi{width:calc((100% - 32px)/3);text-decoration:none}
+  .mini .mi img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;background:#ecebe6}
+  .mini .mi .n{display:block;margin-top:8px;font:600 13px/1.3 var(--body)}
+  .mini .mi .s{display:block;margin-top:3px;font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+}
+/* ---------- sticky category nav ---------- */
+.catnav{position:sticky;top:69px;z-index:20;background:rgba(243,241,235,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-block:1px solid var(--line)}
+.catnav .wrap{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-block:10px}
+.catnav .wrap::-webkit-scrollbar{display:none}
+.catnav a{flex:none;font:600 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:10px 14px;border-radius:999px;color:var(--muted);transition:background .2s,color .2s}
+.catnav a:hover{color:var(--ink)}
+.catnav a.on{background:var(--ink);color:#fff}
+/* ---------- category rails ---------- */
+.cat{padding-block:clamp(44px,6vw,84px) clamp(28px,4vw,52px);border-bottom:1px solid var(--line);scroll-margin-top:130px}
+.cat-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px 32px;align-items:end;margin-bottom:clamp(22px,3vw,36px)}
+.cat-head h2{font-size:clamp(44px,7.4vw,108px)}
+.cat-head .dsc{grid-column:1;max-width:52ch;color:var(--body-c)}
+.cat-head .dsc a{font-weight:700}
+.meta{grid-column:2;grid-row:1 / span 2;display:grid;justify-items:end;gap:10px;font:600 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.meta a{text-decoration:none;color:var(--ink);border-bottom:1.5px solid var(--acc);padding-bottom:4px}
+@media (max-width:749px){.cat-head{grid-template-columns:minmax(0,1fr)}.meta{grid-column:1;grid-row:auto;justify-items:start;display:flex;gap:16px;align-items:center}}
+.railwrap{position:relative}
+.arrows{position:absolute;right:var(--gut);top:-58px;display:flex;gap:8px}
+.arrows button{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;display:grid;place-items:center;transition:background .2s,color .2s}
+.arrows button:hover{background:var(--ink);color:#fff}
+.arrows svg{width:18px;height:18px}
+@media (max-width:749px){.arrows{display:none}}
+.rail{list-style:none;display:flex;gap:clamp(14px,2vw,28px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:0 16px 26px max(16px,calc((100vw - 1320px)/2 + 16px));scroll-padding-left:max(16px,calc((100vw - 1320px)/2 + 16px));background:linear-gradient(#d9d6cd,#9a978e 55%,#7c7a72) 0 4px / 100% 7px no-repeat}
+.rail::-webkit-scrollbar{display:none}
+.ritem{flex:none;width:clamp(200px,58vw,250px);scroll-snap-align:start}
+.hang{all:unset;display:block;cursor:pointer;width:100%;transform-origin:50% 6px}
+.hook{display:block;width:100%;height:44px}
+.shook{display:block;width:34px;height:34px;margin:0 auto -16px;position:relative;z-index:1}
+.pcard2{display:block;margin-top:-4px;background:var(--card);border-radius:10px;overflow:hidden;box-shadow:0 1px 0 rgba(0,0,0,.04),0 22px 34px -22px rgba(0,0,0,.45);transition:box-shadow .3s,transform .3s cubic-bezier(.2,.8,.2,1)}
+.pcard2 img{width:100%;aspect-ratio:4/5;object-fit:cover;background:#ecebe6}
+.hang:hover .pcard2{box-shadow:0 1px 0 rgba(0,0,0,.04),0 30px 44px -22px rgba(0,0,0,.5)}
+.pname{display:block;margin-top:14px;font:600 14px/1.3 var(--body)}
+.psub{display:block;margin-top:4px;font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+/* product dialog */
+dialog.panel{border:0;padding:0;margin:auto;width:min(1080px,calc(100vw - 32px));max-height:calc(100dvh - 32px);border-radius:18px;background:var(--paper);color:var(--ink);overflow:auto}
+dialog.panel::backdrop{background:rgba(18,18,17,.55);backdrop-filter:blur(4px)}
+.pg{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
+.pg .pm{background:#ecebe6}
+.pg .pm img{width:100%;height:100%;aspect-ratio:4/5;object-fit:cover}
+.pg .pi{padding:clamp(22px,3.4vw,44px);display:flex;flex-direction:column;gap:18px}
+.pg .pi h3{font-size:clamp(32px,4vw,52px)}
+.pg .pd{color:var(--body-c);font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:8px 10px;background:#fbfaf6}
+.pg .pa{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto}
+.px{position:absolute;top:12px;right:12px;z-index:2;width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:var(--ink);cursor:pointer;display:grid;place-items:center;box-shadow:0 6px 18px -8px rgba(0,0,0,.4)}
+.px svg{width:18px;height:18px}
+.plink{font:600 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:749px){.pg{grid-template-columns:1fr}.pg .pm img{aspect-ratio:16/10}}
+/* ---------- black CTA band ---------- */
+.ctaband{background:var(--ink);color:#fff;padding-block:clamp(48px,7vw,96px)}
+.ctaband .wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px 40px;align-items:end}
+.ctaband h2{font-size:clamp(40px,7vw,104px)}
+.ctaband h2 span{color:var(--acc)}
+.ctaband p{max-width:48ch;color:#bdb9ae;margin-top:14px}
+@media (max-width:749px){.ctaband .wrap{grid-template-columns:1fr}}
+/* ---------- marquee ---------- */
+.marquee{overflow:hidden;padding-block:13px;background:var(--acc);color:var(--acc-ink);transform:rotate(-1.2deg) scale(1.03);position:relative;z-index:2;border-block:1px solid rgba(0,0,0,.2)}
+.mtrack{display:flex;gap:40px;width:max-content;animation:marq 40s linear infinite;font:400 26px/1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.mtrack span::after{content:"✳";margin-left:40px}
+@keyframes marq{to{transform:translateX(-50%)}}
+/* ---------- generic zi sections ---------- */
+section.blk{padding-block:clamp(64px,9vw,120px)}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px 40px;margin-bottom:40px}
+.sec-head h2{font-size:clamp(44px,7vw,96px)}
+.sec-head p{max-width:48ch;color:var(--muted)}
+.sec-head .eyebrow{width:100%}
+/* studio */
+.how{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:28px}
+.how div{border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;gap:12px;align-items:center;background:var(--panel)}
+.how b{font:400 34px/1 var(--display);color:var(--gold)}
+.how span{font-size:14px;color:var(--muted)}
+.how strong{display:block;color:var(--ink);font-size:15px}
+@media (max-width:640px){.how{grid-template-columns:1fr}}
+.b-grid{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,1fr);gap:clamp(20px,3vw,44px);align-items:start}
+@media (max-width:1000px){.b-grid{grid-template-columns:1fr}}
+.b-left{position:sticky;top:150px;display:grid;gap:16px}
+@media (max-width:1000px){.b-left{position:relative;top:0}}
+.b-stage{position:relative;border-radius:20px;background:radial-gradient(circle at 50% 40%,#ffffff,#e9e7e0 75%);border:1px solid var(--line);overflow:hidden}
+.b-stage .sim{width:100%;aspect-ratio:1/1.02;object-fit:cover}
+.b-stage .pill{position:absolute;font:600 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.88);border:1px solid var(--line);color:var(--ink)}
+.b-stage .pill.p1{left:14px;top:14px}
+.b-stage .pill.p2{right:14px;top:14px}
+.techpack{background:#fff;color:var(--ink2);border:1px solid var(--line);border-radius:14px;padding:18px;font:12px/1.5 var(--mono);position:relative}
+.techpack::after{content:"DRAFT";position:absolute;top:14px;right:16px;font:400 22px var(--display);color:#c9372c;border:2px solid #c9372c;padding:2px 8px;transform:rotate(6deg);letter-spacing:.06em}
+.techpack h4{margin:0 0 10px;font:400 22px/1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.techpack pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}
+.tp-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.steps{display:grid;gap:14px}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 18px 20px}
+.step legend,.step h3{font-size:24px;display:flex;align-items:baseline;gap:10px;margin-bottom:14px;font-family:var(--display);text-transform:uppercase;line-height:.92}
+.step h3 b,.step legend b{font:600 12px var(--mono);color:var(--gold);letter-spacing:.1em}
+.step h3 small{margin-left:auto;font:500 11px var(--mono);color:var(--muted);text-transform:none;letter-spacing:0}
+fieldset.step{border:1px solid var(--line)}
+.gtiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+.gtile{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:8px 6px 9px;cursor:pointer;color:var(--ink);display:grid;gap:4px;justify-items:center;font:600 11.5px/1.15 var(--body);text-align:center;transition:.2s}
+.gtile img{width:62px;height:62px;object-fit:cover;border-radius:8px}
+.gtile:hover{border-color:var(--muted);transform:translateY(-2px)}
+.gtile[aria-pressed="true"]{border-color:var(--ink);background:#fff3da;box-shadow:inset 0 0 0 1px var(--ink)}
+.qb label.lbl,.qb .row>label{font:600 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:8px}
+.qb .row{display:grid;gap:8px;margin-top:14px}
+.qb input[type=text],.qb input[type=number],.qb select,.qb textarea{width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:12px 13px;font:15px var(--body)}
+.qb .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.qb .two{grid-template-columns:1fr}}
+.qchips{display:flex;flex-wrap:wrap;gap:8px}
+.qchip{position:relative}
+.qchip input{position:absolute;opacity:0;pointer-events:none}
+.qchip span{display:inline-block;padding:9px 13px;border-radius:999px;border:1px solid var(--line);background:var(--panel2);font:600 13px/1 var(--body);cursor:pointer;transition:.15s}
+.qchip:hover span{border-color:var(--muted)}
+.qchip input:checked+span{background:var(--acc);color:var(--acc-ink);border-color:var(--gold)}
+.swatches{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.sw{width:30px;height:30px;border-radius:50%;border:2px solid var(--line);cursor:pointer;padding:0;transition:transform .15s}
+.sw:hover{transform:scale(1.12)}
+.ptech{display:grid;gap:8px}
+.ptech .spot{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:10px;align-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:8px 8px 8px 12px}
+.ptech .spot label{font:600 13px var(--body);display:flex;gap:8px;align-items:center}
+.ptech select{padding:9px 10px;font-size:14px}
+/* catalog */
+.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:40px}
+@media (max-width:1000px){.cats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ctile{position:relative;aspect-ratio:16/11;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--panel);text-decoration:none;display:block}
+.ctile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.ctile:hover img{transform:scale(1.07)}
+.ctile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.88))}
+.ctile .ct{position:absolute;left:14px;right:14px;bottom:12px;z-index:2;display:grid;gap:4px;color:#fff}
+.ctile .ct strong{font:400 clamp(20px,2vw,28px)/.95 var(--display);text-transform:uppercase}
+.ctile .ct small{font:600 10.5px var(--mono);color:var(--acc);letter-spacing:.08em;text-transform:uppercase}
+.ctile .plus{position:absolute;right:14px;top:6px;font:400 64px/1 var(--display);color:#fff;z-index:2}
+.ctile.solid{background:var(--acc);color:var(--acc-ink)}
+.ctile.solid::after{display:none}
+.ctile.solid .ct{color:var(--acc-ink)}
+.ctile.solid .ct small{color:var(--acc-ink)}
+.ctile.solid .plus{color:var(--acc-ink)}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;align-items:center}
+.tabs .tab{padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);font:600 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;cursor:pointer;color:var(--muted)}
+.tabs .tab.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tabs input[type=text]{max-width:260px;margin-left:auto;padding:10px 13px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);font:14px var(--body)}
+@media (max-width:560px){.tabs input[type=text]{max-width:none;margin-left:0;width:100%}}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+.ccard{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:transform .3s,border-color .3s}
+.ccard:hover{transform:translateY(-4px);border-color:var(--gold)}
+.ccard .im{aspect-ratio:4/5;overflow:hidden;background:#ecebe6}
+.ccard .im img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.ccard:hover .im img{transform:scale(1.06)}
+.ccard .cb{padding:14px;display:grid;gap:12px;flex:1;align-content:space-between}
+.ccard h3{font:600 15px/1.3 var(--body);text-transform:none;letter-spacing:0}
+.ccard h3 a{text-decoration:none}
+.ccard .csub{font:600 10px var(--mono);color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.ccard .cbt{display:flex;gap:8px}
+.ccard .cbt a{flex:1;min-width:0;text-align:center;padding:10px 8px;border-radius:999px;font:700 11px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;border:1.5px solid var(--acc)}
+.ccard .cbt .q{background:var(--acc);color:var(--acc-ink)}
+.ccard .cbt .c{background:transparent;color:var(--gold)}
+.showing{font:600 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
+/* decoration carousel */
+.dsec{--cw:clamp(268px,32vw,430px)}
+.dsec .sec-head{margin-bottom:22px}
+.dctl{display:flex;align-items:center;gap:14px;margin:0 0 6px}
+.dnav{width:46px;height:46px;flex:none;border-radius:50%;border:1.5px solid var(--ink);background:transparent;color:var(--ink);display:grid;place-items:center;cursor:pointer;transition:background .2s,color .2s,transform .2s}
+.dnav:hover{background:var(--ink);color:#fff}
+.dnav:active{transform:scale(.94)}
+.dnav svg{width:18px;height:18px}
+.dbar{flex:1;height:2px;background:var(--line);border-radius:2px;overflow:hidden}
+.dbar i{display:block;height:100%;width:12.5%;background:var(--ink);transition:width .4s}
+.dcount{font:600 12px/1 var(--mono);letter-spacing:.12em;min-width:64px;text-align:right}
+.deco{display:flex;gap:clamp(12px,1.6vw,22px);overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scrollbar-width:none;padding:28px calc(50% - var(--cw)/2) 34px;cursor:grab}
+.deco::-webkit-scrollbar{display:none}
+.dcard{flex:none;width:var(--cw);scroll-snap-align:center;background:#fff;border:1px solid transparent;border-radius:16px;padding:10px 10px 16px;transform:scale(.86);opacity:.5;filter:saturate(.5);transition:transform .7s cubic-bezier(.2,.8,.2,1),opacity .6s,filter .6s,box-shadow .6s;box-shadow:0 1px 0 rgba(0,0,0,.04)}
+.dcard.on{transform:scale(1);opacity:1;filter:none;box-shadow:0 2px 0 rgba(0,0,0,.03),0 40px 60px -34px rgba(0,0,0,.45)}
+.dcard .lens{position:relative;border-radius:12px;overflow:hidden}
+.dcard .lens img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.dcard .lens small{position:absolute;left:8px;top:8px;font:600 9.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;background:rgba(255,255,255,.92);color:var(--ink);padding:5px 7px;border-radius:4px}
+.dcard .dt{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px;padding:0 4px}
+.dcard strong{font:400 26px/1 var(--display);text-transform:uppercase}
+.dcard .dd{color:var(--body-c);font-size:14px;padding:0 4px}
+.dcard .dt a{flex:none;padding:8px 11px;border-radius:999px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);font:700 10.5px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+.dcard .dt a:hover{background:var(--ink);color:#fff}
+@media (max-width:749px){.dsec{--cw:78vw}.dbar{display:none}.dctl{justify-content:space-between}}
+/* factory */
+.factory{background:var(--panel);border-block:1px solid var(--line)}
+.f-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(24px,4vw,64px);align-items:center}
+@media (max-width:900px){.f-grid{grid-template-columns:1fr}}
+.f-copy{display:grid;gap:22px}
+.f-copy h2{font-size:clamp(44px,6.5vw,88px)}
+.f-copy p{color:var(--muted);max-width:50ch}
+.ffacts{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.ffacts div{background:var(--panel);padding:16px;display:grid;gap:4px}
+.ffacts strong{font:400 24px/1 var(--display);text-transform:uppercase;color:var(--gold)}
+.ffacts span{font-size:13px;color:var(--muted)}
+.f-pics{display:grid;grid-template-columns:1.3fr 1fr;gap:12px}
+.f-pics figure{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line);position:relative}
+.f-pics figure img{width:100%;height:100%;object-fit:cover}
+.f-pics .a{grid-row:span 2}
+.f-pics figcaption{position:absolute;left:10px;bottom:10px;font:600 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.92);color:var(--ink);padding:6px 8px;border-radius:4px}
+/* process */
+ol.proc{padding:0;margin:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:1px solid var(--line);position:relative;list-style:none}
+ol.proc::before{content:"";position:absolute;top:-1px;left:0;height:2px;width:18%;background:var(--acc)}
+.proc li{padding:22px 16px 0 0;border-right:1px solid var(--line);margin-right:16px;display:grid;gap:10px;align-content:start}
+.proc li:last-child{border-right:0}
+.proc b{font:400 54px/1 var(--display);color:var(--gold)}
+.proc strong{font:700 16px var(--body)}
+.proc span{color:var(--muted);font-size:14px}
+@media (max-width:900px){ol.proc{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:24px}.proc li:nth-child(2n){border-right:0}}
+/* founder / promise */
+.founder{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,4vw,64px);align-items:center}
+@media (max-width:800px){.founder{grid-template-columns:1fr}.founder figure{max-width:360px}}
+.founder figure{margin:0;border-radius:18px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/5}
+.founder figure img{width:100%;height:100%;object-fit:cover}
+.founder blockquote{margin:0;display:grid;gap:22px}
+.founder blockquote p.q{font:400 clamp(28px,3.6vw,48px)/1.05 var(--display);text-transform:uppercase}
+.founder blockquote p.q em{font-style:normal;color:var(--gold)}
+.founder .sub{color:var(--body-c);max-width:56ch}
+.founder cite{font:600 13px var(--mono);letter-spacing:.1em;text-transform:uppercase;font-style:normal;color:var(--muted)}
+/* faq */
+.faq-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,4vw,64px)}
+@media (max-width:900px){.faq-grid{grid-template-columns:1fr}}
+.faq details{border-bottom:1px solid var(--line);padding-block:18px}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;font:700 18px/1.3 var(--body)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:400 28px/1 var(--display);color:var(--gold);transition:transform .3s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{color:var(--muted);margin-top:10px;max-width:62ch}
+/* journal */
+.journal{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.post{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel);text-decoration:none;display:flex;flex-direction:column;transition:border-color .3s,transform .3s}
+.post:hover{border-color:var(--gold);transform:translateY(-4px)}
+.post .im{aspect-ratio:16/10;overflow:hidden}
+.post .im img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.post:hover .im img{transform:scale(1.06)}
+.post div.t{padding:16px;display:grid;gap:8px}
+.post small{font:600 10.5px var(--mono);color:var(--gold);letter-spacing:.1em;text-transform:uppercase}
+.post strong{font:700 18px/1.25 var(--body)}
+.post span{color:var(--muted);font-size:14px}
+/* seo text block */
+.seo{border-top:1px solid var(--line);padding-top:40px;margin-top:60px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 40px}
+.seo h3{font:700 15px/1.3 var(--body);text-transform:none;letter-spacing:0;margin-bottom:8px}
+.seo p{font-size:14px;color:var(--muted)}
+@media (max-width:900px){.seo{grid-template-columns:1fr}}
+/* quote */
+.quote{background:var(--acc);color:var(--acc-ink)}
+.quote .eyebrow{color:var(--acc-ink)}
+.q-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(24px,4vw,64px)}
+@media (max-width:900px){.q-grid{grid-template-columns:1fr}}
+.q-grid h2{font-size:clamp(52px,8vw,112px)}
+.q-info{display:grid;gap:22px;align-content:start}
+.q-info p{max-width:42ch;font-size:17px}
+.contacts{display:grid;gap:10px;font:600 15px var(--mono)}
+.contacts div{display:flex;justify-content:space-between;gap:10px;border-bottom:1.5px solid rgba(0,0,0,.25);padding-bottom:10px;flex-wrap:wrap}
+.contacts span{opacity:.65;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.contacts a{text-decoration:none}
+form.qf{background:var(--ink);color:#f3efe4;border-radius:20px;padding:clamp(18px,3vw,30px);display:grid;gap:14px}
+form.qf label{font:600 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#a6a193;display:block;margin-bottom:8px}
+form.qf input,form.qf textarea,form.qf select{width:100%;background:#1f1e1b;border:1px solid #34322c;color:#f3efe4;border-radius:10px;padding:12px 13px;font:15px var(--body)}
+form.qf .qf-note{font-size:13px;color:#a6a193}
+/* footer */
+footer.site{background:var(--ink);color:#a6a193;padding-block:56px 34px;font-size:14px}
+footer.site .cols{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:28px}
+@media (max-width:900px){footer.site .cols{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){footer.site .cols{grid-template-columns:1fr}}
+footer.site h4{font:600 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#f3efe4;margin-bottom:14px}
+footer.site a{color:#a6a193;text-decoration:none;display:block;margin-bottom:8px;transition:color .2s}
+footer.site a:hover{color:var(--acc)}
+footer.site .brand{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+footer.site .brand img{width:46px;height:46px;border-radius:50%}
+footer.site .brand b{color:#fff;font:400 20px var(--display);letter-spacing:.03em;text-transform:uppercase}
+footer.site .giant{font:400 clamp(38px,7.6vw,110px)/.95 var(--display);text-transform:uppercase;color:transparent;-webkit-text-stroke:1.5px #4a473d;margin-top:44px;white-space:nowrap;overflow:hidden}
+footer.site .bottom{border-top:1px solid #34322c;margin-top:26px;padding-top:18px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer.site .su{display:flex;gap:8px}
+footer.site .su input{flex:1;background:#1f1e1b;border:1px solid #34322c;color:#f3efe4;border-radius:999px;padding:11px 16px;font:14px var(--body)}
+footer.site .su button{border-radius:999px;border:1.5px solid var(--acc);background:var(--acc);color:var(--acc-ink);font:700 12px var(--body);letter-spacing:.06em;text-transform:uppercase;padding:11px 16px;cursor:pointer}
+/* dock */
+.dock{position:fixed;right:18px;bottom:18px;z-index:60;display:grid;gap:10px;justify-items:center}
+.dock a{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35);transition:transform .2s;text-decoration:none}
+.dock a:hover{transform:scale(1.1)}
+.dock svg{width:22px;height:22px;fill:#fff}
+.dock .ig{background:radial-gradient(circle at 30% 110%,#fdf497 0,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
+.dock .wa{width:58px;height:58px;background:#25d366}
+.dock .wa svg{width:30px;height:30px}
+@media (max-width:749px){.dock .ig{display:none}}
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+/* header rows: brand + quote on row 1, full nav on row 2 */
+.hdr .brand{order:1}
+.hdr .hq{order:2;margin-left:auto}
+.hdr nav{order:3;width:100%;margin-left:0;justify-content:flex-start}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"Robin Sports","description":"Custom clothing manufacturer for small brands, clubs and schools.","url":"https://robinsports70.github.io/","logo":"https://robinsports70.github.io/images/logo.png","sameAs":["https://www.instagram.com/robinsports70","https://www.youtube.com/@RobinSports-w5n","https://robinsports70.blogspot.com","https://www.pinterest.com/robinsports70/"]}
@@ -147,206 +378,907 @@ footer .bottom { border-top:1px solid #222; text-align:center; padding:18px; mar
 </script>
 </head>
 <body>
-<header>
-  <img src="images/logo.png" alt="Robin Sports logo" width="880" height="880">
-  <div class="name">ROBIN <span>SPORTS</span></div>
-  <nav><a href="index.html" class="active">Home</a><a href="about.html">About Us</a><a href="services.html">Our Services</a><a href="products.html">Products</a><a href="hoodies.html">Hoodies</a><a href="basketball-uniforms.html">Basketball Uniforms</a><a href="leavers-hoodies.html">Leavers Hoodies</a><a href="t-shirts.html">T-Shirts</a><a href="soccer-uniforms.html">Soccer Uniforms</a><a href="blog.html">Blog</a><a href="contact.html">Contact Us</a></nav>
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="Robin Sports logo"><span class="nm">Robin <span>Sports</span></span></a>
+    <nav>
+      <a href="index.html" class="on">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Our Services</a>
+      <a href="products.html">Products</a>
+      <a href="hoodies.html">Hoodies</a>
+      <a href="basketball-uniforms.html">Basketball Uniforms</a>
+      <a href="leavers-hoodies.html">Leavers Hoodies</a>
+      <a href="t-shirts.html">T-Shirts</a>
+      <a href="soccer-uniforms.html">Soccer Uniforms</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <a class="btn btn-k hq" href="#quote">Get a Quote</a>
+  </div>
 </header>
-<a class="ig-float" href="https://www.instagram.com/robinsports70">INSTAGRAM</a>
-<a class="wa-float" href="https://wa.me/923043134792">Chat on WhatsApp</a>
 
-<div class="hero">
-  <img src="images/hero-kit.webp" alt="Custom basketball uniform with Robin Sports branding — close-up" fetchpriority="high" width="1600" height="1066">
-  <div class="hwrap">
-    <div class="eyebrow">Custom Clothing Manufacturer</div>
-    <div class="mega">ROBIN <span>SPORTS</span></div>
-    <h1>Custom Clothing <span>Manufacturer</span> for Brands, Clubs &amp; <span>Schools</span></h1>
-    <p>We manufacture custom hoodies, varsity jackets, t-shirts, polos, dresses and team uniforms — made from your designs, with your labels and your branding, and shipped worldwide.</p>
-    <div class="row"><a class="btn" href="products.html">View Products</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
-  </div>
+<div class="wrap">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="kicker">Custom clothing manufacturer · <b>Worldwide shipping</b></p>
+      <h1 class="h-display">Custom Clothing for Brands, Clubs &amp; Schools</h1>
+      <p class="lead">We manufacture custom hoodies, varsity jackets, t-shirts, polos, dresses and team uniforms — made from your designs, with your labels and your branding, and shipped worldwide.</p>
+      <div class="ctas">
+        <a class="btn btn-k" href="products.html">View Products</a>
+        <a class="btn btn-o" href="#studio">Design Your Piece</a>
+        <a class="btn btn-o" href="https://wa.me/923043134792" target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+      <ul class="facts">
+        <li><b>Sample</b> before bulk</li>
+        <li><b>Private</b> label</li>
+        <li><b>Worldwide</b> shipping</li>
+        <li><b>Cut &amp; sew</b> in-house</li>
+        <li><b>Embroidery</b> &amp; print</li>
+        <li><b>Your design,</b> your label</li>
+      </ul>
+      <div class="mini">
+        <a class="mi" href="#cat-uniforms"><img src="images/gal-uniform-soccer.webp" alt="Soccer uniform — full kit set" loading="lazy"><span class="n">Soccer Uniform</span><span class="s">Full kit set</span></a>
+        <a class="mi" href="#cat-hoodies"><img src="images/gal-hoodie-sherpa.webp" alt="Sherpa fleece hoodie" loading="lazy"><span class="n">Sherpa Fleece Hoodie</span><span class="s">Custom Hoodies</span></a>
+        <a class="mi" href="#cat-varsity"><img src="images/gal-varsity-navy.webp" alt="Navy &amp; white varsity jacket" loading="lazy"><span class="n">Varsity Jacket</span><span class="s">Chenille patches</span></a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="ph"><img src="images/gal-varsity-cream.webp" alt="Cream varsity jacket with chenille patches" fetchpriority="high"></div>
+      <span class="tag t1">Cut &amp; Sew</span>
+      <span class="tag t2">Private Label</span>
+    </div>
+  </section>
 </div>
 
-<div class="marquee" aria-hidden="true"><div class="mq-track"><span>Robin Sports ✦ Custom Clothing Manufacturer ✦ Hoodies ✦ Varsity Jackets ✦ Team Uniforms ✦ Caps &amp; Beanies ✦ Private Label ✦ Worldwide Shipping ✦ </span><span>Robin Sports ✦ Custom Clothing Manufacturer ✦ Hoodies ✦ Varsity Jackets ✦ Team Uniforms ✦ Caps &amp; Beanies ✦ Private Label ✦ Worldwide Shipping ✦ </span></div></div>
-
-<section><div class="wrap split">
-  <img src="images/hoodie.webp" alt="Custom hoodie made by Robin Sports" loading="lazy" decoding="async" width="720" height="1280">
-  <div class="txt">
-    <div class="eyebrow">About Us</div>
-    <h2>Made to Order. <span style="color:#f39c2c">Made to Last.</span></h2>
-    <p class="grey">Robin Sports is a custom clothing manufacturer working with small brands, sports clubs, schools and academies. Every order starts from your design or tech pack and is made piece by piece — cutting, stitching, embroidery, printing and packing under one roof, so your bulk comes back exactly like your sample.</p>
-    <p style="margin-top:18px;"><a class="btn btn-dark" href="about.html">Learn More</a></p>
+<nav class="catnav" aria-label="Categories">
+  <div class="wrap">
+    <a href="#cat-uniforms" class="on">Team Uniforms</a>
+    <a href="#cat-hoodies">Hoodies</a>
+    <a href="#cat-varsity">Varsity</a>
+    <a href="#cat-leather">Leather</a>
+    <a href="#cat-tracks">Tracksuits</a>
+    <a href="#cat-tees">Tees &amp; Polos</a>
+    <a href="#cat-caps">Caps</a>
+    <a href="#cat-martial">Martial Arts</a>
+    <a href="#cat-embroidery">Embroidery</a>
+    <a href="#studio">Studio</a>
   </div>
-</div></section>
+</nav>
 
-<div class="cats">
-<section class="cat"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/hero-kit.webp" alt="Custom basketball uniform with Robin Sports branding — close-up" loading="lazy" decoding="async" width="1600" height="1066"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">Team Uniforms &amp; Kits</div>
+<section class="cat" id="cat-uniforms">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">Team Uniforms</p>
       <h2>Team Uniforms &amp; Kits</h2>
-      <p>Full sublimated kits with names, numbers and your colours — soccer, basketball, baseball, softball, American football, volleyball, ice hockey, rugby, lacrosse and cricket, made as one complete team identity.</p>
-      <div class="row"><a class="btn" href="basketball-uniforms.html">Explore Basketball Uniforms</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">Full sublimated kits with names, numbers and your colours — soccer, basketball, baseball, softball, American football, volleyball, ice hockey, rugby, lacrosse and cricket, made as one complete team identity.</p>
+      <div class="meta"><span>10 styles</span><a href="basketball-uniforms.html">Explore Basketball Uniforms</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-uniform-soccer.webp" alt="Soccer uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Soccer uniform — full kit set</figcaption></figure><figure><img src="images/gal-uniform-basketball.webp" alt="Basketball uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Basketball uniform set</figcaption></figure><figure><img src="images/gal-uniform-baseball.webp" alt="Baseball uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Baseball uniform set</figcaption></figure><figure><img src="images/gal-uniform-softball.webp" alt="Softball uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Softball uniform — jersey, pants &amp; visor</figcaption></figure><figure><img src="images/gal-uniform-football.webp" alt="American football uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>American football uniform — jersey &amp; pants</figcaption></figure><figure><img src="images/gal-uniform-volleyball.webp" alt="Volleyball uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Volleyball uniform — jersey, shorts &amp; knee pads</figcaption></figure><figure><img src="images/gal-uniform-hockey.webp" alt="Ice hockey uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Ice hockey uniform — jersey, pants &amp; socks</figcaption></figure><figure><img src="images/gal-uniform-rugby.webp" alt="Rugby uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Rugby uniform — striped jersey &amp; shorts</figcaption></figure><figure><img src="images/gal-uniform-lacrosse.webp" alt="Lacrosse uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Lacrosse uniform — pinnie, shorts &amp; gloves</figcaption></figure><figure><img src="images/gal-uniform-cricket.webp" alt="Cricket uniform set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Cricket uniform — whites, cap &amp; gloves</figcaption></figure></div>
-</div></section>
-<section class="cat"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/cat-hoodie.webp" alt="Custom navy hoodie with embroidered Robin Sports crest — close-up" loading="lazy" decoding="async" width="1000" height="2000"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">Custom Hoodies</div>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-soccer.webp" data-name="Soccer uniform" data-sub="full kit set" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-soccer.webp" alt="Soccer uniform" loading="lazy"></span><span class="pname">Soccer uniform</span><span class="psub">full kit set</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-basketball.webp" data-name="Basketball uniform set" data-sub="Team Uniforms" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-basketball.webp" alt="Basketball uniform set" loading="lazy"></span><span class="pname">Basketball uniform set</span><span class="psub">Team Uniforms</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-baseball.webp" data-name="Baseball uniform set" data-sub="Team Uniforms" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-baseball.webp" alt="Baseball uniform set" loading="lazy"></span><span class="pname">Baseball uniform set</span><span class="psub">Team Uniforms</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-softball.webp" data-name="Softball uniform" data-sub="jersey, pants &amp; visor" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-softball.webp" alt="Softball uniform" loading="lazy"></span><span class="pname">Softball uniform</span><span class="psub">jersey, pants &amp; visor</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-football.webp" data-name="American football uniform" data-sub="jersey &amp; pants" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-football.webp" alt="American football uniform" loading="lazy"></span><span class="pname">American football uniform</span><span class="psub">jersey &amp; pants</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-volleyball.webp" data-name="Volleyball uniform" data-sub="jersey, shorts &amp; knee pads" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-volleyball.webp" alt="Volleyball uniform" loading="lazy"></span><span class="pname">Volleyball uniform</span><span class="psub">jersey, shorts &amp; knee pads</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-hockey.webp" data-name="Ice hockey uniform" data-sub="jersey, pants &amp; socks" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-hockey.webp" alt="Ice hockey uniform" loading="lazy"></span><span class="pname">Ice hockey uniform</span><span class="psub">jersey, pants &amp; socks</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-rugby.webp" data-name="Rugby uniform" data-sub="striped jersey &amp; shorts" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-rugby.webp" alt="Rugby uniform" loading="lazy"></span><span class="pname">Rugby uniform</span><span class="psub">striped jersey &amp; shorts</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-lacrosse.webp" data-name="Lacrosse uniform" data-sub="pinnie, shorts &amp; gloves" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-lacrosse.webp" alt="Lacrosse uniform" loading="lazy"></span><span class="pname">Lacrosse uniform</span><span class="psub">pinnie, shorts &amp; gloves</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-uniform-cricket.webp" data-name="Cricket uniform" data-sub="whites, cap &amp; gloves" data-cat="Team Uniforms"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-uniform-cricket.webp" alt="Cricket uniform" loading="lazy"></span><span class="pname">Cricket uniform</span><span class="psub">whites, cap &amp; gloves</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="cat" id="cat-hoodies">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">Custom Hoodies</p>
       <h2>Custom Hoodies</h2>
-      <p>Pullover and zip-up hoodies in heavyweight fleece, with embroidery, chenille letters and prints — finished with your labels and your packaging.</p>
-      <div class="row"><a class="btn" href="hoodies.html">Explore Hoodies</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">Pullover and zip-up hoodies in heavyweight fleece, with embroidery, chenille letters and prints — finished with your labels and your packaging.</p>
+      <div class="meta"><span>7 styles</span><a href="hoodies.html">Explore Hoodies</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-hoodie-sherpa.webp" alt="Sherpa fleece hoodie by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Sherpa fleece hoodie</figcaption></figure><figure><img src="images/gal-hoodie-galaxy.webp" alt="Tie-dye zip-up hoodie by Robin Sports" loading="lazy" decoding="async" width="640" height="1136"><figcaption>Tie-dye zip-up hoodie</figcaption></figure><figure><img src="images/gal-hoodie-leopard.webp" alt="Leopard print zip hoodie by Robin Sports" loading="lazy" decoding="async" width="600" height="906"><figcaption>Leopard print zip hoodie</figcaption></figure><figure><img src="images/gal-hoodie-chenille.webp" alt="Appliqué and chenille pullover hoodie by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Appliqué &amp; chenille pullover hoodie</figcaption></figure><figure><img src="images/gal-hoodie-zipup.webp" alt="Zip-up hoodie by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Zip-up hoodie</figcaption></figure><figure><img src="images/gal-hoodie-pullover.webp" alt="Reversible zip-up hoodie by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Reversible zip-up hoodie</figcaption></figure><figure><img src="images/gal-hoodie-washed.webp" alt="Washed and sun fade hoodies by Robin Sports" loading="lazy" decoding="async" width="667" height="1000"><figcaption>Washed &amp; sun fade hoodies</figcaption></figure></div>
-</div></section>
-<section class="cat"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/cat-varsity.webp" alt="Varsity jacket with chenille letter patch — close-up" loading="lazy" decoding="async" width="1000" height="2000"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">Varsity Jackets</div>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-hoodie-sherpa.webp" data-name="Sherpa fleece hoodie" data-sub="Custom Hoodies" data-cat="Custom Hoodies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-hoodie-sherpa.webp" alt="Sherpa fleece hoodie" loading="lazy"></span><span class="pname">Sherpa fleece hoodie</span><span class="psub">Custom Hoodies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-hoodie-galaxy.webp" data-name="Tie-dye zip-up hoodie" data-sub="Custom Hoodies" data-cat="Custom Hoodies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-hoodie-galaxy.webp" alt="Tie-dye zip-up hoodie" loading="lazy"></span><span class="pname">Tie-dye zip-up hoodie</span><span class="psub">Custom Hoodies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-hoodie-leopard.webp" data-name="Leopard print zip hoodie" data-sub="Custom Hoodies" data-cat="Custom Hoodies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-hoodie-leopard.webp" alt="Leopard print zip hoodie" loading="lazy"></span><span class="pname">Leopard print zip hoodie</span><span class="psub">Custom Hoodies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-hoodie-chenille.webp" data-name="Appliqué &amp; chenille pullover hoodie" data-sub="Custom Hoodies" data-cat="Custom Hoodies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-hoodie-chenille.webp" alt="Appliqué &amp; chenille pullover hoodie" loading="lazy"></span><span class="pname">Appliqué &amp; chenille pullover hoodie</span><span class="psub">Custom Hoodies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-hoodie-zipup.webp" data-name="Zip-up hoodie" data-sub="Custom Hoodies" data-cat="Custom Hoodies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-hoodie-zipup.webp" alt="Zip-up hoodie" loading="lazy"></span><span class="pname">Zip-up hoodie</span><span class="psub">Custom Hoodies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-hoodie-pullover.webp" data-name="Reversible zip-up hoodie" data-sub="Custom Hoodies" data-cat="Custom Hoodies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-hoodie-pullover.webp" alt="Reversible zip-up hoodie" loading="lazy"></span><span class="pname">Reversible zip-up hoodie</span><span class="psub">Custom Hoodies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-hoodie-washed.webp" data-name="Washed &amp; sun fade hoodies" data-sub="Custom Hoodies" data-cat="Custom Hoodies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-hoodie-washed.webp" alt="Washed &amp; sun fade hoodies" loading="lazy"></span><span class="pname">Washed &amp; sun fade hoodies</span><span class="psub">Custom Hoodies</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="cat" id="cat-varsity">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">Varsity Jackets</p>
       <h2>Varsity Jackets</h2>
-      <p>Classic varsity jackets with chenille patches, appliqué letters and your colourway — wool bodies, contrasting sleeves and private label finishing.</p>
-      <div class="row"><a class="btn" href="products.html">See All Products</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">Classic varsity jackets with chenille patches, appliqué letters and your colourway — wool bodies, contrasting sleeves and private label finishing.</p>
+      <div class="meta"><span>3 styles</span><a href="products.html">See All Products</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-varsity-navy.webp" alt="Navy and white varsity jacket by Robin Sports" loading="lazy" decoding="async" width="705" height="540"><figcaption>Navy &amp; white varsity jacket</figcaption></figure><figure><img src="images/gal-varsity-black.webp" alt="Black varsity jacket by Robin Sports" loading="lazy" decoding="async" width="720" height="773"><figcaption>Black varsity jacket</figcaption></figure><figure><img src="images/gal-varsity-cream.webp" alt="Cream varsity jacket by Robin Sports" loading="lazy" decoding="async" width="720" height="720"><figcaption>Cream varsity jacket</figcaption></figure></div>
-</div></section>
-<section class="cat"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/cat-leather.webp" alt="Black leather jacket with Robin Sports embossing — close-up" loading="lazy" decoding="async" width="1000" height="2000"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">Leather Jackets</div>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-varsity-navy.webp" data-name="Navy &amp; white varsity jacket" data-sub="Varsity Jackets" data-cat="Varsity Jackets"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-varsity-navy.webp" alt="Navy &amp; white varsity jacket" loading="lazy"></span><span class="pname">Navy &amp; white varsity jacket</span><span class="psub">Varsity Jackets</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-varsity-black.webp" data-name="Black varsity jacket" data-sub="Varsity Jackets" data-cat="Varsity Jackets"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-varsity-black.webp" alt="Black varsity jacket" loading="lazy"></span><span class="pname">Black varsity jacket</span><span class="psub">Varsity Jackets</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-varsity-cream.webp" data-name="Cream varsity jacket" data-sub="Varsity Jackets" data-cat="Varsity Jackets"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-varsity-cream.webp" alt="Cream varsity jacket" loading="lazy"></span><span class="pname">Cream varsity jacket</span><span class="psub">Varsity Jackets</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="cat" id="cat-leather">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">Leather Jackets</p>
       <h2>Leather Jackets</h2>
-      <p>Leather jackets made for your brand — bombers, shearling collars and full-length coats, cut and stitched to order with your labels inside.</p>
-      <div class="row"><a class="btn" href="products.html">See All Products</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">Leather jackets made for your brand — bombers, shearling collars and full-length coats, cut and stitched to order with your labels inside.</p>
+      <div class="meta"><span>3 styles</span><a href="products.html">See All Products</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-leather-bomber.webp" alt="Leather bomber jacket by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Leather bomber jacket</figcaption></figure><figure><img src="images/gal-leather-shearling.webp" alt="Shearling collar leather jacket by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Shearling-collar leather jacket</figcaption></figure><figure><img src="images/gal-leather-coat.webp" alt="Belted leather coat by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Belted leather coat</figcaption></figure></div>
-</div></section>
-<section class="cat"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/cat-tracksuit.webp" alt="Black tracksuit with orange stripe — close-up" loading="lazy" decoding="async" width="1000" height="1500"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">Tracksuits</div>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-leather-bomber.webp" data-name="Leather bomber jacket" data-sub="Leather Jackets" data-cat="Leather Jackets"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-leather-bomber.webp" alt="Leather bomber jacket" loading="lazy"></span><span class="pname">Leather bomber jacket</span><span class="psub">Leather Jackets</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-leather-shearling.webp" data-name="Shearling-collar leather jacket" data-sub="Leather Jackets" data-cat="Leather Jackets"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-leather-shearling.webp" alt="Shearling-collar leather jacket" loading="lazy"></span><span class="pname">Shearling-collar leather jacket</span><span class="psub">Leather Jackets</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-leather-coat.webp" data-name="Belted leather coat" data-sub="Leather Jackets" data-cat="Leather Jackets"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-leather-coat.webp" alt="Belted leather coat" loading="lazy"></span><span class="pname">Belted leather coat</span><span class="psub">Leather Jackets</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="cat" id="cat-tracks">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">Tracksuits</p>
       <h2>Tracksuits</h2>
-      <p>Tracksuits, joggers and activewear sets for teams, gyms and brands — matching track jackets and joggers made in your colours.</p>
-      <div class="row"><a class="btn" href="products.html">See All Products</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">Tracksuits, joggers and activewear sets for teams, gyms and brands — matching track jackets and joggers made in your colours.</p>
+      <div class="meta"><span>4 styles</span><a href="products.html">See All Products</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-track-navy.webp" alt="Navy tracksuit set by Robin Sports" loading="lazy" decoding="async" width="880" height="1564"><figcaption>Navy tracksuit set</figcaption></figure><figure><img src="images/gal-track-maroon.webp" alt="Maroon hoodie and jogger set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Maroon hoodie &amp; jogger set</figcaption></figure><figure><img src="images/gal-track-red.webp" alt="Red tracksuit set by Robin Sports" loading="lazy" decoding="async" width="720" height="782"><figcaption>Red tracksuit set</figcaption></figure><figure><img src="images/gal-track-joggers.webp" alt="Fleece jogger set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Fleece jogger set</figcaption></figure></div>
-</div></section>
-<section class="cat"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/cat-tshirt.webp" alt="Printed t-shirt with Robin Sports graphic — close-up" loading="lazy" decoding="async" width="1000" height="2000"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">T-Shirts &amp; Polos</div>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-track-navy.webp" data-name="Navy tracksuit set" data-sub="Tracksuits" data-cat="Tracksuits"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-track-navy.webp" alt="Navy tracksuit set" loading="lazy"></span><span class="pname">Navy tracksuit set</span><span class="psub">Tracksuits</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-track-maroon.webp" data-name="Maroon hoodie &amp; jogger set" data-sub="Tracksuits" data-cat="Tracksuits"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-track-maroon.webp" alt="Maroon hoodie &amp; jogger set" loading="lazy"></span><span class="pname">Maroon hoodie &amp; jogger set</span><span class="psub">Tracksuits</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-track-red.webp" data-name="Red tracksuit set" data-sub="Tracksuits" data-cat="Tracksuits"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-track-red.webp" alt="Red tracksuit set" loading="lazy"></span><span class="pname">Red tracksuit set</span><span class="psub">Tracksuits</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-track-joggers.webp" data-name="Fleece jogger set" data-sub="Tracksuits" data-cat="Tracksuits"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-track-joggers.webp" alt="Fleece jogger set" loading="lazy"></span><span class="pname">Fleece jogger set</span><span class="psub">Tracksuits</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="cat" id="cat-tees">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">T-Shirts & Polos</p>
       <h2>T-Shirts &amp; Polos</h2>
-      <p>Custom tees and polos with screen print, DTG, foil print or embroidery — premium fabrics finished with your labels and packaging.</p>
-      <div class="row"><a class="btn" href="t-shirts.html">Explore T-Shirts</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">Custom tees and polos with screen print, DTG, foil print or embroidery — premium fabrics finished with your labels and packaging.</p>
+      <div class="meta"><span>5 styles</span><a href="t-shirts.html">Explore T-Shirts</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-tee-geo.webp" alt="Graphic print t-shirt by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Graphic print t-shirt</figcaption></figure><figure><img src="images/gal-tee-minimal.webp" alt="Plain embroidered t-shirt by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Plain embroidered t-shirt</figcaption></figure><figure><img src="images/gal-tee-raglan.webp" alt="Raglan long-sleeve tee by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Raglan long-sleeve tee</figcaption></figure><figure><img src="images/gal-tee-crew.webp" alt="Classic crew neck t-shirt by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Classic crew neck tee</figcaption></figure><figure><img src="images/gal-tee-polo.webp" alt="Embroidered polo shirt by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Embroidered polo shirt</figcaption></figure></div>
-</div></section>
-<section class="cat" id="caps"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/cat-caps.webp" alt="Embroidered cap and knitted beanies with Robin Sports branding — close-up" loading="lazy" decoding="async" width="1000" height="2000"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">Caps &amp; Beanies</div>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-tee-geo.webp" data-name="Graphic print t-shirt" data-sub="T-Shirts &amp; Polos" data-cat="T-Shirts &amp; Polos"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-tee-geo.webp" alt="Graphic print t-shirt" loading="lazy"></span><span class="pname">Graphic print t-shirt</span><span class="psub">T-Shirts &amp; Polos</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-tee-minimal.webp" data-name="Plain embroidered t-shirt" data-sub="T-Shirts &amp; Polos" data-cat="T-Shirts &amp; Polos"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-tee-minimal.webp" alt="Plain embroidered t-shirt" loading="lazy"></span><span class="pname">Plain embroidered t-shirt</span><span class="psub">T-Shirts &amp; Polos</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-tee-raglan.webp" data-name="Raglan long-sleeve tee" data-sub="T-Shirts &amp; Polos" data-cat="T-Shirts &amp; Polos"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-tee-raglan.webp" alt="Raglan long-sleeve tee" loading="lazy"></span><span class="pname">Raglan long-sleeve tee</span><span class="psub">T-Shirts &amp; Polos</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-tee-crew.webp" data-name="Classic crew neck tee" data-sub="T-Shirts &amp; Polos" data-cat="T-Shirts &amp; Polos"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-tee-crew.webp" alt="Classic crew neck tee" loading="lazy"></span><span class="pname">Classic crew neck tee</span><span class="psub">T-Shirts &amp; Polos</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-tee-polo.webp" data-name="Embroidered polo shirt" data-sub="T-Shirts &amp; Polos" data-cat="T-Shirts &amp; Polos"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-tee-polo.webp" alt="Embroidered polo shirt" loading="lazy"></span><span class="pname">Embroidered polo shirt</span><span class="psub">T-Shirts &amp; Polos</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="cat" id="cat-caps">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">Caps & Beanies</p>
       <h2>Caps &amp; Beanies</h2>
-      <p>Custom embroidered caps and knitted beanies for brands, clubs and teams — your logo stitched in clean and sharp, finished with your private label.</p>
-      <div class="row"><a class="btn" href="products.html">View Products</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">Custom embroidered caps and knitted beanies for brands, clubs and teams — your logo stitched in clean and sharp, finished with your private label.</p>
+      <div class="meta"><span>4 styles</span><a href="products.html">View Products</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-caps-trucker.webp" alt="Custom trucker cap by Robin Sports" loading="lazy" decoding="async" width="720" height="540"><figcaption>Navy trucker cap</figcaption></figure><figure><img src="images/gal-caps-beanie.webp" alt="Cable-knit pom beanie by Robin Sports" loading="lazy" decoding="async" width="685" height="895"><figcaption>Cable-knit pom beanie</figcaption></figure><figure><img src="images/gal-caps-beanies.webp" alt="Fleece-lined beanies by Robin Sports" loading="lazy" decoding="async" width="880" height="457"><figcaption>Fleece-lined beanies</figcaption></figure><figure><img src="images/gal-caps-snapback.webp" alt="Embroidered snapback cap by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Embroidered snapback cap</figcaption></figure></div>
-</div></section>
-<section class="cat" id="martial-arts"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/cat-martial.webp" alt="Black jiu-jitsu gi with gold Robin Sports crest — close-up" loading="lazy" decoding="async" width="1000" height="2000"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">Martial Arts Uniforms</div>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-caps-trucker.webp" data-name="Navy trucker cap" data-sub="Caps &amp; Beanies" data-cat="Caps &amp; Beanies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-caps-trucker.webp" alt="Navy trucker cap" loading="lazy"></span><span class="pname">Navy trucker cap</span><span class="psub">Caps &amp; Beanies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-caps-beanie.webp" data-name="Cable-knit pom beanie" data-sub="Caps &amp; Beanies" data-cat="Caps &amp; Beanies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-caps-beanie.webp" alt="Cable-knit pom beanie" loading="lazy"></span><span class="pname">Cable-knit pom beanie</span><span class="psub">Caps &amp; Beanies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-caps-beanies.webp" data-name="Fleece-lined beanies" data-sub="Caps &amp; Beanies" data-cat="Caps &amp; Beanies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-caps-beanies.webp" alt="Fleece-lined beanies" loading="lazy"></span><span class="pname">Fleece-lined beanies</span><span class="psub">Caps &amp; Beanies</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-caps-snapback.webp" data-name="Embroidered snapback cap" data-sub="Caps &amp; Beanies" data-cat="Caps &amp; Beanies"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-caps-snapback.webp" alt="Embroidered snapback cap" loading="lazy"></span><span class="pname">Embroidered snapback cap</span><span class="psub">Caps &amp; Beanies</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="cat" id="cat-martial">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">Martial Arts</p>
       <h2>Custom Martial Arts Uniforms</h2>
-      <p>As a custom martial arts uniforms manufacturer, we build the complete academy range — karate gi, taekwondo dobok, jiu-jitsu gi, rash guards, MMA shorts, spats and belts — with your academy logo embroidered or printed, plus matching warm-up tracksuits, tees and hoodies for your whole team.</p>
-      <div class="row"><a class="btn" href="products.html">View Products</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">As a custom martial arts uniforms manufacturer, we build the complete academy range — karate gi, taekwondo dobok, jiu-jitsu gi, rash guards, MMA shorts, spats and belts — with your academy logo embroidered or printed, plus matching warm-up tracksuits, tees and hoodies for your whole team.</p>
+      <div class="meta"><span>9 styles</span><a href="products.html">View Products</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-martial-gi.webp" alt="White karate gi with black belt by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Karate gi with embroidered academy crest</figcaption></figure><figure><img src="images/gal-martial-rash.webp" alt="Black rash guard by Robin Sports" loading="lazy" decoding="async" width="880" height="660"><figcaption>Rash guard with printed academy logo</figcaption></figure><figure><img src="images/gal-martial-shorts.webp" alt="MMA fight shorts by Robin Sports" loading="lazy" decoding="async" width="880" height="605"><figcaption>MMA fight shorts</figcaption></figure><figure><img src="images/gal-martial-dobok.webp" alt="Taekwondo dobok and martial arts belts by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Taekwondo dobok &amp; belt set</figcaption></figure><figure><img src="images/gal-martial-bjj.webp" alt="Jiu-jitsu gi close-up by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Jiu-jitsu gi — heavyweight weave</figcaption></figure><figure><img src="images/gal-martial-spats.webp" alt="Spats, leggings and MMA training gear by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Spats, leggings &amp; training gear</figcaption></figure><figure><img src="images/gal-martial-belts.webp" alt="Martial arts belts by Robin Sports" loading="lazy" decoding="async" width="880" height="630"><figcaption>Belts in all grade colours</figcaption></figure><figure><img src="images/gal-martial-warmup.webp" alt="Academy warm-up hoodie and jogger set by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Academy warm-up hoodie &amp; joggers</figcaption></figure><figure><img src="images/gal-martial-rashguard.webp" alt="Rash guard for MMA and grappling by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Rash guard for MMA &amp; grappling</figcaption></figure></div>
-</div></section>
-<section class="cat"><div class="wrap">
-  <div class="cat-flex">
-    <div class="cat-media"><img src="images/cat-embroidery.webp" alt="Gold embroidery of the Robin Sports crest — close-up" loading="lazy" decoding="async" width="1000" height="2000"></div>
-    <div class="cat-txt">
-      <div class="eyebrow">Embroidery &amp; Private Label</div>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-gi.webp" data-name="Karate gi with embroidered academy crest" data-sub="Martial Arts" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-gi.webp" alt="Karate gi with embroidered academy crest" loading="lazy"></span><span class="pname">Karate gi with embroidered academy crest</span><span class="psub">Martial Arts</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-rash.webp" data-name="Rash guard with printed academy logo" data-sub="Martial Arts" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-rash.webp" alt="Rash guard with printed academy logo" loading="lazy"></span><span class="pname">Rash guard with printed academy logo</span><span class="psub">Martial Arts</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-shorts.webp" data-name="MMA fight shorts" data-sub="Martial Arts" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-shorts.webp" alt="MMA fight shorts" loading="lazy"></span><span class="pname">MMA fight shorts</span><span class="psub">Martial Arts</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-dobok.webp" data-name="Taekwondo dobok &amp; belt set" data-sub="Martial Arts" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-dobok.webp" alt="Taekwondo dobok &amp; belt set" loading="lazy"></span><span class="pname">Taekwondo dobok &amp; belt set</span><span class="psub">Martial Arts</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-bjj.webp" data-name="Jiu-jitsu gi" data-sub="heavyweight weave" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-bjj.webp" alt="Jiu-jitsu gi" loading="lazy"></span><span class="pname">Jiu-jitsu gi</span><span class="psub">heavyweight weave</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-spats.webp" data-name="Spats, leggings &amp; training gear" data-sub="Martial Arts" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-spats.webp" alt="Spats, leggings &amp; training gear" loading="lazy"></span><span class="pname">Spats, leggings &amp; training gear</span><span class="psub">Martial Arts</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-belts.webp" data-name="Belts in all grade colours" data-sub="Martial Arts" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-belts.webp" alt="Belts in all grade colours" loading="lazy"></span><span class="pname">Belts in all grade colours</span><span class="psub">Martial Arts</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-warmup.webp" data-name="Academy warm-up hoodie &amp; joggers" data-sub="Martial Arts" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-warmup.webp" alt="Academy warm-up hoodie &amp; joggers" loading="lazy"></span><span class="pname">Academy warm-up hoodie &amp; joggers</span><span class="psub">Martial Arts</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-martial-rashguard.webp" data-name="Rash guard for MMA &amp; grappling" data-sub="Martial Arts" data-cat="Martial Arts"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-martial-rashguard.webp" alt="Rash guard for MMA &amp; grappling" loading="lazy"></span><span class="pname">Rash guard for MMA &amp; grappling</span><span class="psub">Martial Arts</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="cat" id="cat-embroidery">
+  <div class="wrap">
+    <div class="cat-head">
+      <p class="eyebrow">Embroidery & Private Label</p>
       <h2>Embroidery &amp; Private Label</h2>
-      <p>Detailed logo embroidery, chenille patches and appliqué, stitched to last — finished with your woven labels, hang tags and packaging on every piece.</p>
-      <div class="row"><a class="btn" href="services.html">Explore Services</a><a class="btn btn-outline" href="https://wa.me/923043134792">WhatsApp Us</a></div>
+      <p class="dsc">Detailed logo embroidery, chenille patches and appliqué, stitched to last — finished with your woven labels, hang tags and packaging on every piece.</p>
+      <div class="meta"><span>6 styles</span><a href="services.html">Explore Services</a></div>
     </div>
   </div>
-  <div class="gal"><figure><img src="images/gal-emb-machine.webp" alt="Embroidery production at Robin Sports" loading="lazy" decoding="async" width="640" height="1136"><figcaption>Embroidery production</figcaption></figure><figure><img src="images/gal-emb-chenille.webp" alt="Chenille patch work by Robin Sports" loading="lazy" decoding="async" width="800" height="1000"><figcaption>Chenille patch set</figcaption></figure><figure><img src="images/gal-emb-tonal.webp" alt="Tonal embroidery hoodie by Robin Sports" loading="lazy" decoding="async" width="880" height="1100"><figcaption>Tonal embroidery hoodie</figcaption></figure><figure><img src="images/printing.webp" alt="Screen printing by Robin Sports" loading="lazy" decoding="async" width="720" height="1280"><figcaption>Screen printing</figcaption></figure><figure><img src="images/uniforms.webp" alt="Sublimation printed team kits by Robin Sports" loading="lazy" decoding="async" width="719" height="719"><figcaption>Sublimation — full printed kits</figcaption></figure><figure><img src="images/embroidery.webp" alt="Private label embroidery by Robin Sports" loading="lazy" decoding="async" width="720" height="1280"><figcaption>Private label &amp; woven labels</figcaption></figure></div>
-</div></section>
+  <div class="railwrap">
+    <div class="arrows"><button type="button" class="rprev" aria-label="Scroll back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button><button type="button" class="rnext" aria-label="Scroll forward"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button></div>
+    <ul class="rail">
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-emb-machine.webp" data-name="Embroidery production" data-sub="Embroidery &amp; Private Label" data-cat="Embroidery &amp; Private Label"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-emb-machine.webp" alt="Embroidery production" loading="lazy"></span><span class="pname">Embroidery production</span><span class="psub">Embroidery &amp; Private Label</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-emb-chenille.webp" data-name="Chenille patch set" data-sub="Embroidery &amp; Private Label" data-cat="Embroidery &amp; Private Label"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-emb-chenille.webp" alt="Chenille patch set" loading="lazy"></span><span class="pname">Chenille patch set</span><span class="psub">Embroidery &amp; Private Label</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/gal-emb-tonal.webp" data-name="Tonal embroidery hoodie" data-sub="Embroidery &amp; Private Label" data-cat="Embroidery &amp; Private Label"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/gal-emb-tonal.webp" alt="Tonal embroidery hoodie" loading="lazy"></span><span class="pname">Tonal embroidery hoodie</span><span class="psub">Embroidery &amp; Private Label</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/printing.webp" data-name="Screen printing" data-sub="Embroidery &amp; Private Label" data-cat="Embroidery &amp; Private Label"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/printing.webp" alt="Screen printing" loading="lazy"></span><span class="pname">Screen printing</span><span class="psub">Embroidery &amp; Private Label</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/uniforms.webp" data-name="Sublimation" data-sub="full printed kits" data-cat="Embroidery &amp; Private Label"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/uniforms.webp" alt="Sublimation" loading="lazy"></span><span class="pname">Sublimation</span><span class="psub">full printed kits</span></button></li>
+      <li class="ritem"><button class="hang" type="button" data-img="images/embroidery.webp" data-name="Private label &amp; woven labels" data-sub="Embroidery &amp; Private Label" data-cat="Embroidery &amp; Private Label"><svg class="hook" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 1v9" stroke="#7c7a72" stroke-width="3"/><path d="M20 10c6.5 0 10 4.2 10 9.5 0 7.5-10 7.5-10 15" fill="none" stroke="#55534c" stroke-width="3" stroke-linecap="round"/></svg><span class="pcard2"><img src="images/embroidery.webp" alt="Private label &amp; woven labels" loading="lazy"></span><span class="pname">Private label &amp; woven labels</span><span class="psub">Embroidery &amp; Private Label</span></button></li>
+    </ul>
+  </div>
+</section>
+<section class="ctaband">
+  <div class="wrap">
+    <div>
+      <h2>Pick a piece.<br>Make it <span>yours.</span></h2>
+      <p>Choose the fabric, colours, fit, logo placement and decoration in the studio. Your spec sheet builds itself, and we reply with a quote for your exact order.</p>
+    </div>
+    <a class="btn btn-a" href="#studio">Design Your Piece</a>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="mtrack">
+    <span>Hoodies</span><span>Varsity Jackets</span><span>Team Kits</span><span>T-Shirts</span><span>Leather Jackets</span><span>Tracksuits</span><span>Caps &amp; Beanies</span><span>Martial Arts</span>
+    <span>Hoodies</span><span>Varsity Jackets</span><span>Team Kits</span><span>T-Shirts</span><span>Leather Jackets</span><span>Tracksuits</span><span>Caps &amp; Beanies</span><span>Martial Arts</span>
+  </div>
 </div>
 
-<div class="strip">Cut &amp; Sew <span>·</span> Embroidery <span>·</span> Printing <span>·</span> Private Label <span>·</span> Worldwide Shipping</div>
-
-<section class="dark"><div class="wrap">
-  <div class="eyebrow">Why Choose Us</div>
-  <h2>Why Brands Choose Robin Sports</h2>
-  <div class="three">
-    <div><h3>Custom Quality</h3><p>Every piece is checked against your approved sample — fabric, fit, stitching and print — before it is packed.</p></div>
-    <div><h3>Premium Products</h3><p>Heavyweight fabrics, clean embroidery and strong stitching, made for brands that sell on quality.</p></div>
-    <div><h3>Customer Satisfaction</h3><p>Clear communication at every step, from your first design to the day your order is delivered.</p></div>
+<section class="blk" id="studio">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Robin Sports <b>Design Studio</b></p>
+      <h2>Design Your Piece</h2>
+      <p>Choose any garment, set the fabric and colours, add your logo and pick a decoration for each spot. Your spec sheet builds itself as you go — send it and we reply with a quote for your exact order.</p>
+    </div>
+    <div class="how">
+      <div><b>1</b><span><strong>Pick a garment</strong>12 styles, from tees to team kits</span></div>
+      <div><b>2</b><span><strong>Customise it</strong>Fabric, colour, logo, print, trims</span></div>
+      <div><b>3</b><span><strong>Send for a quote</strong>By WhatsApp or email, in one tap</span></div>
+    </div>
+    <form class="qb" id="qb">
+    <div class="b-grid">
+      <div class="b-left">
+        <div class="b-stage">
+          <img class="sim" id="q-stage-img" src="images/gal-hoodie-pullover.webp" alt="Selected garment preview">
+          <span class="pill p1" id="q-stage-name">Hoodie — pullover</span>
+          <span class="pill p2">Front view</span>
+        </div>
+        <div class="techpack">
+          <h4>Your Spec Sheet</h4>
+          <pre id="q-spec"></pre>
+          <div class="tp-actions">
+            <a class="btn btn-k" id="q-wa" href="https://wa.me/923043134792" target="_blank" rel="noopener">Send via WhatsApp</a>
+            <a class="btn btn-o" id="q-mail" href="mailto:robinsports70@gmail.com">Send via Email</a>
+          </div>
+        </div>
+      </div>
+      <div class="steps">
+        <fieldset class="step">
+          <legend><b>01</b> Pick a Garment</legend>
+          <select id="q-garment" hidden>
+            <option>Hoodie — pullover</option><option>Hoodie — zip-up</option><option>T-shirt</option><option>Polo shirt</option><option>Varsity jacket</option><option>Leather jacket</option><option>Tracksuit set</option><option>Team uniform kit</option><option>Martial arts uniform</option><option>Cap / beanie</option><option>Dress</option><option>Other — describe in notes</option>
+          </select>
+          <div class="gtiles" id="q-tiles">
+            <button type="button" class="gtile" data-val="Hoodie — pullover" data-img="images/gal-hoodie-pullover.webp" aria-pressed="true"><img src="images/gal-hoodie-pullover.webp" alt="" loading="lazy">Hoodie — pullover</button>
+            <button type="button" class="gtile" data-val="Hoodie — zip-up" data-img="images/gal-hoodie-zipup.webp" aria-pressed="false"><img src="images/gal-hoodie-zipup.webp" alt="" loading="lazy">Hoodie — zip-up</button>
+            <button type="button" class="gtile" data-val="T-shirt" data-img="images/gal-tee-crew.webp" aria-pressed="false"><img src="images/gal-tee-crew.webp" alt="" loading="lazy">T-shirt</button>
+            <button type="button" class="gtile" data-val="Polo shirt" data-img="images/gal-tee-polo.webp" aria-pressed="false"><img src="images/gal-tee-polo.webp" alt="" loading="lazy">Polo shirt</button>
+            <button type="button" class="gtile" data-val="Varsity jacket" data-img="images/gal-varsity-cream.webp" aria-pressed="false"><img src="images/gal-varsity-cream.webp" alt="" loading="lazy">Varsity jacket</button>
+            <button type="button" class="gtile" data-val="Leather jacket" data-img="images/gal-leather-bomber.webp" aria-pressed="false"><img src="images/gal-leather-bomber.webp" alt="" loading="lazy">Leather jacket</button>
+            <button type="button" class="gtile" data-val="Tracksuit set" data-img="images/gal-track-navy.webp" aria-pressed="false"><img src="images/gal-track-navy.webp" alt="" loading="lazy">Tracksuit set</button>
+            <button type="button" class="gtile" data-val="Team uniform kit" data-img="images/gal-uniform-soccer.webp" aria-pressed="false"><img src="images/gal-uniform-soccer.webp" alt="" loading="lazy">Team uniform kit</button>
+            <button type="button" class="gtile" data-val="Martial arts uniform" data-img="images/gal-martial-gi.webp" aria-pressed="false"><img src="images/gal-martial-gi.webp" alt="" loading="lazy">Martial arts uniform</button>
+            <button type="button" class="gtile" data-val="Cap / beanie" data-img="images/gal-caps-snapback.webp" aria-pressed="false"><img src="images/gal-caps-snapback.webp" alt="" loading="lazy">Cap / beanie</button>
+            <button type="button" class="gtile" data-val="Dress" data-img="images/custom-dresses-blank.jpg" aria-pressed="false"><img src="images/custom-dresses-blank.jpg" alt="" loading="lazy">Dress</button>
+            <button type="button" class="gtile" data-val="Other — describe in notes" data-img="images/cat-embroidery.webp" aria-pressed="false"><img src="images/cat-embroidery.webp" alt="" loading="lazy">Other</button>
+          </div>
+        </fieldset>
+        <fieldset class="step">
+          <legend><b>02</b> Fabric &amp; Fit</legend>
+          <div class="row"><label for="q-fabric">Fabric</label>
+            <select id="q-fabric"><option>Heavyweight fleece</option><option>Midweight fleece</option><option>French terry</option><option>Cotton jersey</option><option>Polyester performance</option><option>Wool blend</option><option>Leather</option><option>Not sure — advise me</option></select></div>
+          <div class="row"><label for="q-weight">Fabric weight (optional, e.g. 350 GSM)</label>
+            <input type="text" id="q-weight" placeholder="e.g. 350 GSM"></div>
+          <div class="row"><label for="q-fit">Fit / style</label>
+            <select id="q-fit"><option>Regular fit</option><option>Oversized</option><option>Slim fit</option><option>Relaxed fit</option><option>Custom pattern / tech pack</option></select></div>
+        </fieldset>
+        <fieldset class="step">
+          <legend><b>03</b> Colours &amp; Wash</legend>
+          <div class="row"><label>Main colour — pick a swatch or type your own</label>
+            <div class="swatches">
+              <button type="button" class="sw" data-col="Navy" style="background:#1f2a44" aria-label="Navy"></button>
+              <button type="button" class="sw" data-col="Black" style="background:#171717" aria-label="Black"></button>
+              <button type="button" class="sw" data-col="White" style="background:#f5f5f2" aria-label="White"></button>
+              <button type="button" class="sw" data-col="Red" style="background:#b3312c" aria-label="Red"></button>
+              <button type="button" class="sw" data-col="Royal blue" style="background:#2456a6" aria-label="Royal blue"></button>
+              <button type="button" class="sw" data-col="Forest green" style="background:#2e5d3a" aria-label="Forest green"></button>
+              <button type="button" class="sw" data-col="Maroon" style="background:#6e2434" aria-label="Maroon"></button>
+              <button type="button" class="sw" data-col="Grey" style="background:#8a8d90" aria-label="Grey"></button>
+              <button type="button" class="sw" data-col="Cream" style="background:#efe6d0" aria-label="Cream"></button>
+              <button type="button" class="sw" data-col="Orange" style="background:#f39c2c" aria-label="Orange"></button>
+            </div>
+            <input type="text" id="q-col1" placeholder="e.g. Navy"></div>
+          <div class="row"><label for="q-col2">Contrast colour (optional)</label>
+            <input type="text" id="q-col2" placeholder="e.g. White"></div>
+          <div class="row"><label for="q-wash">Wash / finish</label>
+            <select id="q-wash"><option>None — standard finish</option><option>Garment wash</option><option>Sun fade</option><option>Acid wash</option><option>Vintage wash</option></select></div>
+        </fieldset>
+        <fieldset class="step">
+          <legend><b>04</b> Logo &amp; Decoration</legend>
+          <div class="row"><label for="q-brand">Your brand name (optional)</label>
+            <input type="text" id="q-brand" placeholder="Your brand name"></div>
+          <div class="row"><label>Where do you want your logo — and how should each spot be decorated?</label>
+            <div class="ptech" id="q-spots">
+              <div class="spot"><label><input type="checkbox" class="spot-on" value="Front chest"> Front chest</label><select class="spot-dec" disabled><option>Embroidery</option><option>Chenille patch</option><option>Screen print</option><option>DTG print</option><option>Sublimation</option><option>Foil print</option><option>Appliqué</option><option>Tackle twill</option></select></div>
+              <div class="spot"><label><input type="checkbox" class="spot-on" value="Back"> Back</label><select class="spot-dec" disabled><option>Screen print</option><option>Embroidery</option><option>Chenille patch</option><option>DTG print</option><option>Sublimation</option><option>Foil print</option><option>Appliqué</option><option>Tackle twill</option></select></div>
+              <div class="spot"><label><input type="checkbox" class="spot-on" value="Left sleeve"> Left sleeve</label><select class="spot-dec" disabled><option>Embroidery</option><option>Screen print</option><option>DTG print</option><option>Sublimation</option><option>Foil print</option><option>Appliqué</option><option>Tackle twill</option><option>Chenille patch</option></select></div>
+              <div class="spot"><label><input type="checkbox" class="spot-on" value="Right sleeve"> Right sleeve</label><select class="spot-dec" disabled><option>Embroidery</option><option>Screen print</option><option>DTG print</option><option>Sublimation</option><option>Foil print</option><option>Appliqué</option><option>Tackle twill</option><option>Chenille patch</option></select></div>
+              <div class="spot"><label><input type="checkbox" class="spot-on" value="Names &amp; numbers"> Names &amp; numbers</label><select class="spot-dec" disabled><option>Sublimation</option><option>Tackle twill</option><option>Screen print</option><option>Embroidery</option><option>DTG print</option><option>Foil print</option><option>Appliqué</option><option>Chenille patch</option></select></div>
+            </div></div>
+        </fieldset>
+        <fieldset class="step">
+          <legend><b>05</b> Trims &amp; Branding</legend>
+          <div class="qchips" id="q-trims">
+            <label class="qchip"><input type="checkbox" value="Woven neck label"><span>Woven neck label</span></label>
+            <label class="qchip"><input type="checkbox" value="Hang tags"><span>Hang tags</span></label>
+            <label class="qchip"><input type="checkbox" value="Printed care label"><span>Printed care label</span></label>
+            <label class="qchip"><input type="checkbox" value="Branded packaging"><span>Branded packaging</span></label>
+            <label class="qchip"><input type="checkbox" value="Individual poly bags"><span>Individual poly bags</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="step">
+          <legend><b>06</b> Quantity &amp; Sizes</legend>
+          <div class="two">
+            <div class="row"><label for="q-qty">Total pieces</label>
+              <input type="number" id="q-qty" min="1" placeholder="e.g. 100"></div>
+            <div class="row"><label for="q-sizes">Sizes (e.g. S–XL, or a roster list)</label>
+              <input type="text" id="q-sizes" placeholder="e.g. S, M, L, XL"></div>
+          </div>
+          <div class="row"><label for="q-notes">Anything else? (optional)</label>
+            <textarea id="q-notes" rows="3" placeholder="Deadlines, references, special requests…"></textarea></div>
+        </fieldset>
+      </div>
+    </div>
+    </form>
   </div>
-</div></section>
+</section>
 
-<section class="dark" style="padding-top:0;"><div class="wrap">
-  <div class="eyebrow">Our Process</div>
-  <h2>How It Works</h2>
-  <div class="three">
-    <div class="step"><b>1</b><h3>Choose Your Service</h3><p>Pick your product and decoration — embroidery, print, sublimation or chenille.</p></div>
-    <div class="step"><b>2</b><h3>Share Your Design</h3><p>Send your artwork or tech pack. We make a sample first so you can check everything.</p></div>
-    <div class="step"><b>3</b><h3>Get Your Order</h3><p>Once the sample is approved, your bulk is produced, checked and shipped worldwide.</p></div>
+<section class="blk" id="catalog" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">The <b>Catalogue</b></p>
+      <h2>Apparel We Manufacture</h2>
+      <p>Every piece below is made to order — pick a style as your starting point, then make it yours in the studio with your fabric, colours and branding.</p>
+    </div>
+    <div class="cats">
+      <a class="ctile solid" href="#cat-uniforms"><span class="plus">+</span><span class="ct"><strong>Team Uniforms</strong><small>10 sports · Full kits</small></span></a>
+      <a class="ctile" href="#cat-hoodies"><img src="images/cat-hoodie.webp" alt="Custom hoodies" loading="lazy"><span class="plus">+</span><span class="ct"><strong>Hoodies</strong><small>Pullover · Zip-up · Sherpa</small></span></a>
+      <a class="ctile" href="#cat-varsity"><img src="images/cat-varsity.webp" alt="Varsity jackets" loading="lazy"><span class="plus">+</span><span class="ct"><strong>Varsity Jackets</strong><small>Chenille · Appliqué</small></span></a>
+      <a class="ctile" href="#cat-martial"><img src="images/cat-martial.webp" alt="Martial arts uniforms" loading="lazy"><span class="plus">+</span><span class="ct"><strong>Martial Arts</strong><small>Gi · Dobok · Rash guards</small></span></a>
+    </div>
+    <div class="tabs" id="catTabs">
+      <button type="button" class="tab on" data-f="all">All</button>
+      <button type="button" class="tab" data-f="uniforms">Team Uniforms</button>
+      <button type="button" class="tab" data-f="street">Streetwear</button>
+      <button type="button" class="tab" data-f="head">Headwear</button>
+      <button type="button" class="tab" data-f="martial">Martial Arts</button>
+      <input type="text" id="catSearch" placeholder="Search products…" aria-label="Search products">
+    </div>
+    <p class="showing" id="catShowing">Showing 1–18 of 18 products</p>
+    <div class="grid" id="catGrid">
+      <article class="ccard" data-cat="street" data-name="custom hoodies">
+        <a class="im" href="contact.html"><img src="images/hoodie.webp" alt="Custom Hoodies" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Custom Hoodies</a></h3><span class="csub">Streetwear</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="street" data-name="varsity jackets">
+        <a class="im" href="contact.html"><img src="images/varsity.webp" alt="Varsity Jackets" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Varsity Jackets</a></h3><span class="csub">Streetwear</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="street" data-name="t-shirts &amp; polos">
+        <a class="im" href="contact.html"><img src="images/tshirt.webp" alt="T-Shirts &amp; Polos" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">T-Shirts &amp; Polos</a></h3><span class="csub">Streetwear</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="team uniforms &amp; kits">
+        <a class="im" href="soccer-uniforms.html"><img src="images/uniforms.webp" alt="Team Uniforms &amp; Kits" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="soccer-uniforms.html">Team Uniforms &amp; Kits</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="baseball uniforms">
+        <a class="im" href="contact.html"><img src="images/baseball.webp" alt="Baseball Uniforms" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Baseball Uniforms</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="street" data-name="activewear &amp; tracksuits">
+        <a class="im" href="contact.html"><img src="images/tracksuit.webp" alt="Activewear &amp; Tracksuits" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Activewear &amp; Tracksuits</a></h3><span class="csub">Streetwear</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="head" data-name="caps &amp; beanies">
+        <a class="im" href="index.html#caps"><img src="images/cat-caps.webp" alt="Caps &amp; Beanies" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="index.html#caps">Caps &amp; Beanies</a></h3><span class="csub">Headwear</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="martial" data-name="martial arts uniforms">
+        <a class="im" href="index.html#martial-arts"><img src="images/cat-martial.webp" alt="Martial Arts Uniforms" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="index.html#martial-arts">Martial Arts Uniforms</a></h3><span class="csub">Martial Arts</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="soccer">
+        <a class="im" href="soccer-uniforms.html"><img src="images/gal-uniform-soccer.webp" alt="Soccer" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="soccer-uniforms.html">Soccer</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="basketball">
+        <a class="im" href="basketball-uniforms.html"><img src="images/gal-uniform-basketball.webp" alt="Basketball" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="basketball-uniforms.html">Basketball</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="baseball">
+        <a class="im" href="contact.html"><img src="images/gal-uniform-baseball.webp" alt="Baseball" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Baseball</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="softball">
+        <a class="im" href="contact.html"><img src="images/gal-uniform-softball.webp" alt="Softball" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Softball</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="american football">
+        <a class="im" href="contact.html"><img src="images/gal-uniform-football.webp" alt="American Football" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">American Football</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="volleyball">
+        <a class="im" href="contact.html"><img src="images/gal-uniform-volleyball.webp" alt="Volleyball" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Volleyball</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="ice hockey">
+        <a class="im" href="contact.html"><img src="images/gal-uniform-hockey.webp" alt="Ice Hockey" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Ice Hockey</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="rugby">
+        <a class="im" href="contact.html"><img src="images/gal-uniform-rugby.webp" alt="Rugby" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Rugby</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="lacrosse">
+        <a class="im" href="contact.html"><img src="images/gal-uniform-lacrosse.webp" alt="Lacrosse" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Lacrosse</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+      <article class="ccard" data-cat="uniforms" data-name="cricket">
+        <a class="im" href="contact.html"><img src="images/gal-uniform-cricket.webp" alt="Cricket" loading="lazy"></a>
+        <div class="cb"><div><h3><a href="contact.html">Cricket</a></h3><span class="csub">Team Uniforms</span></div>
+        <div class="cbt"><a class="q" href="contact.html">Get a Quote</a><a class="c" href="index.html#studio">Design This Piece</a></div></div>
+      </article>
+    </div>
   </div>
-</div></section>
+</section>
+<section class="blk dsec" id="decoration" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Decoration <b>Methods</b></p>
+      <h2>Every Print &amp; Stitch In-House</h2>
+      <p>See how each method really looks on fabric. Mix them on one garment: embroidery on the chest, chenille on the back, a print on the sleeve.</p>
+    </div>
+    <div class="dctl">
+      <button type="button" class="dnav" id="carPrev" aria-label="Previous method"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6-7-7 7 7 7"/></svg></button>
+      <button type="button" class="dnav" id="carNext" aria-label="Next method"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-7 7 7-7 7"/></svg></button>
+      <div class="dbar"><i id="carBar"></i></div>
+      <span class="dcount" id="carCount">01 / 08</span>
+    </div>
+  </div>
+  <div class="deco" id="carTrack">
+    <article class="dcard">
+      <div class="lens"><img src="images/gal-emb-machine.webp" alt="Embroidery" loading="lazy"><small>Embroidery</small></div>
+      <div class="dt"><strong>Embroidery</strong><a href="#studio">Add to My Piece</a></div>
+      <p class="dd">Logo embroidery stitched on our own machines — clean, raised and built to survive wash after wash, from small chest logos to full crest work.</p>
+    </article>
+    <article class="dcard">
+      <div class="lens"><img src="images/gal-emb-chenille.webp" alt="Chenille Patches" loading="lazy"><small>Chenille Patches</small></div>
+      <div class="dt"><strong>Chenille Patches</strong><a href="#studio">Add to My Piece</a></div>
+      <p class="dd">The classic varsity finish. Chenille letters and patches are made and applied in-house for jackets, hoodies and team wear.</p>
+    </article>
+    <article class="dcard">
+      <div class="lens"><img src="images/printing.webp" alt="Screen Printing" loading="lazy"><small>Screen Printing</small></div>
+      <div class="dt"><strong>Screen Printing</strong><a href="#studio">Add to My Piece</a></div>
+      <p class="dd">Bold screen prints that stay sharp — the workhorse for graphic tees, hoodie fronts and large back designs.</p>
+    </article>
+    <article class="dcard">
+      <div class="lens"><img src="images/gal-tee-geo.webp" alt="DTG Printing" loading="lazy"><small>DTG Printing</small></div>
+      <div class="dt"><strong>DTG Printing</strong><a href="#studio">Add to My Piece</a></div>
+      <p class="dd">Direct-to-garment printing for detailed, full-colour artwork — gradients and photo-style designs with no crack or peel.</p>
+    </article>
+    <article class="dcard">
+      <div class="lens"><img src="images/uniforms.webp" alt="Sublimation" loading="lazy"><small>Sublimation</small></div>
+      <div class="dt"><strong>Sublimation</strong><a href="#studio">Add to My Piece</a></div>
+      <p class="dd">All-over sublimation for team kits: colours, names, numbers and sponsors printed into the fabric itself, so nothing fades or peels.</p>
+    </article>
+    <article class="dcard">
+      <div class="lens"><img src="images/tshirt.webp" alt="Foil Print" loading="lazy"><small>Foil Print</small></div>
+      <div class="dt"><strong>Foil Print</strong><a href="#studio">Add to My Piece</a></div>
+      <p class="dd">Metallic foil print for statement drops — a shine that turns a plain tee or hoodie into the piece everyone notices.</p>
+    </article>
+    <article class="dcard">
+      <div class="lens"><img src="images/gal-hoodie-chenille.webp" alt="Appliqué" loading="lazy"><small>Appliqué</small></div>
+      <div class="dt"><strong>Appliqué</strong><a href="#studio">Add to My Piece</a></div>
+      <p class="dd">Layered appliqué letters and patches, stitched down for the layered, textured look brands build collections around.</p>
+    </article>
+    <article class="dcard">
+      <div class="lens"><img src="images/embroidery.webp" alt="Private Label" loading="lazy"><small>Private Label</small></div>
+      <div class="dt"><strong>Private Label</strong><a href="#studio">Add to My Piece</a></div>
+      <p class="dd">Your woven labels, hang tags and packaging on every piece — the finished product carries your brand, and only your brand.</p>
+    </article>
+  </div>
+</section>
+<section class="blk factory" id="factory">
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-copy">
+        <p class="eyebrow">Our <b>Factory</b></p>
+        <h2>Made in Our Own Factory</h2>
+        <p>Cutting, stitching, embroidery, printing, sublimation and packing all happen under one roof. Nothing is handed off to a middleman, so the sample you approve is exactly what your bulk order matches — piece by piece.</p>
+        <div class="ffacts">
+          <div><strong>In-House Everything</strong><span>Cutting, stitching, print and embroidery by our own team — one roof, one standard, from first piece to last.</span></div>
+          <div><strong>Sample Before Bulk</strong><span>Every order starts with a sample you check and approve, so there are no surprises when the bulk arrives.</span></div>
+          <div><strong>Private Label Finish</strong><span>Your woven labels, hang tags and packaging on every piece — retail-ready under your name only.</span></div>
+          <div><strong>Worldwide Shipping</strong><span>Finished orders are packed and shipped worldwide, to brands, clubs and schools wherever they are.</span></div>
+        </div>
+      </div>
+      <div class="f-pics">
+        <figure class="a"><img src="images/gal-emb-machine.webp" alt="Embroidery production on our own machines" loading="lazy"><figcaption>Embroidery</figcaption></figure>
+        <figure><img src="images/printing.webp" alt="Screen printing in-house" loading="lazy"><figcaption>Printing</figcaption></figure>
+        <figure><img src="images/uniforms.webp" alt="Sublimation printed team kits" loading="lazy"><figcaption>Sublimation</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="cta-banner"><div class="wrap">
-  <h2>Ready to Start Your Custom Order?</h2>
-  <a class="btn" href="contact.html">Contact Us Now</a>
-</div></div>
-<footer>
-  <div class="cols">
-    <div>
-      <div class="brand"><img src="images/logo.png" alt="Robin Sports logo" width="880" height="880"><b>ROBIN SPORTS</b></div>
-      <p>Custom clothing manufacturer for small brands, clubs and schools. Hoodies, jackets, t-shirts and team uniforms with your branding.</p>
+<section class="blk" id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Our <b>Process</b></p>
+      <h2>From Idea to Your Door</h2>
+      <p>Six clear steps between your first message and a finished order on your doorstep — with a sample in your hands before any bulk is made.</p>
     </div>
-    <div>
-      <h4>Useful Links</h4>
-      <a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Our Services</a><a href="products.html">Products</a><a href="contact.html">Contact Us</a>
+    <ol class="proc">
+      <li><b>01</b><strong>Choose Your Service</strong><span>Pick your product and decoration — embroidery, print, sublimation or chenille.</span></li>
+      <li><b>02</b><strong>Share Your Design</strong><span>Send your artwork, tech pack or reference — or build the piece in our studio above.</span></li>
+      <li><b>03</b><strong>Approve Your Sample</strong><span>We make a sample first so you can check the fabric, fit, stitching and decoration.</span></li>
+      <li><b>04</b><strong>Bulk Production</strong><span>Once the sample is approved, your full order is cut, stitched and decorated in-house.</span></li>
+      <li><b>05</b><strong>Quality Check</strong><span>Every piece is checked against your approved sample before it is packed.</span></li>
+      <li><b>06</b><strong>Packed &amp; Shipped</strong><span>Your labels and packaging on every piece, shipped worldwide to your door.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="blk" style="padding-top:0">
+  <div class="wrap">
+    <div class="founder">
+      <figure><img src="images/hoodie.webp" alt="Custom hoodie made by Robin Sports" loading="lazy"></figure>
+      <blockquote>
+        <p class="eyebrow">The Robin Sports <b>Promise</b></p>
+        <p class="q">Every piece leaves our workshop with <em>your name</em> on it — never ours.</p>
+        <p class="sub">Robin Sports is a custom clothing manufacturer working with small brands, sports clubs, schools and academies. Every order starts from your design or tech pack and is made piece by piece — cutting, stitching, embroidery, printing and packing under one roof, so your bulk comes back exactly like your sample.</p>
+        <cite>Robin Sports · Workshop Team</cite>
+      </blockquote>
     </div>
-    <div>
-      <h4>Services</h4>
-      <a href="services.html">Embroidery</a><a href="services.html">Screen Printing</a><a href="services.html">Sublimation</a><a href="services.html">Private Label</a>
-    </div>
-    <div>
-      <h4>Contact</h4>
-      <a href="https://wa.me/923043134792">WhatsApp: +92 304 3134792</a>
-      <a href="mailto:robinsports70@gmail.com">Email: robinsports70@gmail.com</a>
-      <a href="https://www.instagram.com/robinsports70">DM 'CUSTOM' on Instagram</a>
-    </div>
-    <div>
-      <h4>Follow Us</h4>
-      <a href="https://www.instagram.com/robinsports70">Instagram: @robinsports70</a>
-      <a href="https://www.youtube.com/@RobinSports-w5n">YouTube</a>
-      <a href="https://robinsports70.blogspot.com">Blog</a>
-      <a href="https://www.pinterest.com/robinsports70/">Pinterest</a>
+    <div class="seo">
+      <div><h3>Custom quality, checked piece by piece</h3><p>Every piece is checked against your approved sample — fabric, fit, stitching and print — before it is packed.</p></div>
+      <div><h3>Premium products</h3><p>Heavyweight fabrics, clean embroidery and strong stitching, made for brands that sell on quality.</p></div>
+      <div><h3>Customer satisfaction</h3><p>Clear communication at every step, from your first design to the day your order is delivered.</p></div>
+      <div><h3>Made to order, made to last</h3><p>Cut-and-sew manufacturing for hoodies, varsity jackets, t-shirts, team uniforms and more — finished with your labels and your branding.</p></div>
     </div>
   </div>
-  <div class="bottom">© 2026 Robin Sports — Custom Clothing Manufacturer. All rights reserved.</div>
+</section>
+
+<section class="blk faq" id="faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="faq-grid">
+      <div>
+        <p class="eyebrow">Questions <b>Brands Ask</b></p>
+        <h2 style="font-size:clamp(44px,7vw,96px);margin-top:14px">FAQ</h2>
+        <p style="color:var(--muted);max-width:40ch;margin-top:16px">Anything else you need to know? Message us on WhatsApp and we will walk you through it.</p>
+        <p style="margin-top:20px"><a class="btn btn-k" href="https://wa.me/923043134792" target="_blank" rel="noopener">Ask on WhatsApp</a></p>
+      </div>
+      <div>
+        <details><summary>Do I need a tech pack to start?</summary><p>No. A tech pack helps, but a reference photo, a sample garment or a clear description of the fit and fabric you want is enough for us to develop your first sample.</p></details>
+        <details><summary>Can I check the quality before ordering in bulk?</summary><p>Yes — we always start with a sample, so you can approve the fabric, fit, stitching and decoration in your hands before committing to a full run.</p></details>
+        <details><summary>Can I put my own labels and packaging on the products?</summary><p>Yes — private label is the core of what we do. Your woven labels, hang tags and packaging go on every piece, with nothing of ours on the finished product.</p></details>
+        <details><summary>Which decoration methods do you offer?</summary><p>Embroidery, chenille patches, appliqué, screen printing, DTG, sublimation, foil print and tackle twill — all in-house, and they can be mixed on a single garment.</p></details>
+        <details><summary>Do you ship worldwide?</summary><p>Yes. Finished orders are packed and shipped worldwide to brands, clubs, schools and academies.</p></details>
+        <details><summary>How do I start?</summary><p>Build your piece in the design studio above and send us the spec sheet, message us on WhatsApp, or DM 'CUSTOM' on Instagram @robinsports70 — whichever is easiest for you.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blk" id="guides" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">From the <b>Journal</b></p>
+      <h2>Guides for Clothing Brands</h2>
+      <p>Practical guides on finding the right manufacturer and ordering custom clothing for your brand, club or school.</p>
+    </div>
+    <div class="journal">
+      <a class="post" href="blog/how-to-find-a-custom-team-kits-manufacturer.html"><span class="im"><img src="images/gal-uniform-basketball.webp" alt="Custom team kits" loading="lazy"></span><div class="t"><small>Guide · Team Kits</small><strong>How to Find a Custom Team Kits Manufacturer for Your Brand</strong><span>What to look for, what to ask, and how to order full team kits with confidence.</span></div></a>
+      <a class="post" href="blog/how-to-find-a-custom-dresses-manufacturer.html"><span class="im"><img src="images/custom-dresses-blank.jpg" alt="Custom dresses" loading="lazy"></span><div class="t"><small>Guide · Dresses</small><strong>How to Find a Custom Dresses Manufacturer for Your Brand</strong><span>How blank and custom dresses are developed, sampled and produced for brands.</span></div></a>
+      <a class="post" href="blog/how-to-find-a-custom-polo-shirt-manufacturer.html"><span class="im"><img src="images/embroidery.webp" alt="Custom polo shirts" loading="lazy"></span><div class="t"><small>Guide · Polos</small><strong>How to Find a Custom Polo Shirt Manufacturer for Your Brand</strong><span>Fabric, collars, embroidery and fit — what makes a polo worth your label.</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="blk quote" id="quote">
+  <div class="wrap">
+    <div class="q-grid">
+      <div class="q-info">
+        <p class="eyebrow">Get <b>Pricing</b></p>
+        <h2>Tell Us What You Need</h2>
+        <p>Every order is quoted individually, because pricing depends on your fabric, decoration and quantity. Send your design, your spec sheet from the studio above, or just the idea — we reply with the next steps.</p>
+        <div class="contacts">
+          <div><span>WhatsApp</span><a href="https://wa.me/923043134792" target="_blank" rel="noopener">+92 304 3134792</a></div>
+          <div><span>Email</span><a href="mailto:robinsports70@gmail.com">robinsports70@gmail.com</a></div>
+          <div><span>Instagram</span><a href="https://www.instagram.com/robinsports70" target="_blank" rel="noopener">@robinsports70</a></div>
+        </div>
+      </div>
+      <form class="qf" id="qf">
+        <div><label for="qf-name">Your name</label><input type="text" id="qf-name" placeholder="e.g. Alex from Hoops Co."></div>
+        <div><label for="qf-need">What do you need?</label><textarea id="qf-need" rows="4" placeholder="Garment, quantity, fabric, decoration, deadline…"></textarea></div>
+        <div><label for="qf-mail">Your email (optional)</label><input type="email" id="qf-mail" placeholder="you@brand.com"></div>
+        <button type="submit" class="btn btn-a" style="justify-content:center">Send via WhatsApp</button>
+        <p class="qf-note">This opens WhatsApp with your message ready to send. Prefer email? <a href="mailto:robinsports70@gmail.com" style="color:var(--acc)">robinsports70@gmail.com</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brand"><img src="images/logo.png" alt="Robin Sports logo"><b>Robin Sports</b></div>
+        <p>Custom clothing manufacturer for small brands, clubs and schools. Hoodies, jackets, t-shirts and team uniforms with your branding.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="products.html">Products</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="services.html">Embroidery</a>
+        <a href="services.html">Screen Printing</a>
+        <a href="services.html">Sublimation</a>
+        <a href="services.html">Private Label</a>
+        <a href="index.html#studio">Design Studio</a>
+      </div>
+      <div>
+        <h4>Sign Up</h4>
+        <p style="margin-bottom:12px">New styles, decoration ideas and manufacturing tips for brands — straight to your inbox.</p>
+        <form class="su" id="suForm"><input type="email" id="suMail" placeholder="Your email" aria-label="Your email"><button type="submit">Sign Up</button></form>
+        <p style="margin-top:16px">WhatsApp: +92 304 3134792<br>Email: robinsports70@gmail.com<br>DM 'CUSTOM' on Instagram</p>
+      </div>
+    </div>
+    <div class="giant">Custom Clothing Manufacturer</div>
+    <div class="bottom">
+      <span>© 2026 Robin Sports — Custom Clothing Manufacturer. All rights reserved.</span>
+      <span><a href="https://www.instagram.com/robinsports70" target="_blank" rel="noopener" style="display:inline;margin:0">Instagram</a> · <a href="blog.html" style="display:inline;margin:0">Blog</a> · <a href="#top" style="display:inline;margin:0">Back to top</a></span>
+    </div>
+  </div>
 </footer>
+
+<div class="dock">
+  <a class="ig" href="https://www.instagram.com/robinsports70" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 4 4 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zm0 3.6a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-10.4a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg></a>
+  <a class="wa" href="https://wa.me/923043134792" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.4 1.8 2.2 1.2 1.1 2.3 1.5 2.6 1.6.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.3.6.4 0 .1 0 .7-.2 1.2z"/></svg></a>
+</div>
+
+<dialog class="panel" id="pPanel" aria-label="Product details">
+  <button class="px" id="pClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+  <div class="pg">
+    <div class="pm"><img id="pImg" src="" alt=""></div>
+    <div class="pi">
+      <p class="plink" id="pCat"></p>
+      <h3 id="pName"></h3>
+      <p class="pd" id="pDesc"></p>
+      <div class="chips"><span>Embroidery</span><span>Screen Print</span><span>Sublimation</span><span>Chenille</span><span>Private Label</span></div>
+      <div class="pa">
+        <a class="btn btn-k" href="#studio" id="pDesign">Design This Piece</a>
+        <a class="btn btn-o" href="https://wa.me/923043134792" target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
 <script>
-(function(){var els=document.querySelectorAll('section,.pcard,.scard,.info-cards>div,.page-banner,.gal figure,.cat-media,.cat-txt');if(!('IntersectionObserver' in window)||!els.length)return;var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.08});els.forEach(function(el){el.classList.add('rv');io.observe(el);});})();
+(function(){var els=document.querySelectorAll('section,.cat-head,.dcard,.ccard,.post');if(!('IntersectionObserver' in window)||!els.length)return;var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.06});els.forEach(function(el){el.classList.add('rv');io.observe(el);});})();
 </script>
+<script>
+/* category rails: arrows + product dialog */
+(function(){
+  document.querySelectorAll('.railwrap').forEach(function(w){
+    var rail=w.querySelector('.rail'); if(!rail) return;
+    var p=w.querySelector('.rprev'), n=w.querySelector('.rnext');
+    function step(){ var it=rail.querySelector('.ritem'); return it? it.offsetWidth+20 : 280; }
+    if(p) p.addEventListener('click',function(){ rail.scrollBy({left:-step()*2,behavior:'smooth'}); });
+    if(n) n.addEventListener('click',function(){ rail.scrollBy({left:step()*2,behavior:'smooth'}); });
+  });
+  var dlg=document.getElementById('pPanel'); if(!dlg) return;
+  var img=document.getElementById('pImg'), nm=document.getElementById('pName'),
+      ct=document.getElementById('pCat'), ds=document.getElementById('pDesc');
+  document.querySelectorAll('.hang').forEach(function(b){
+    b.addEventListener('click',function(){
+      img.src=b.getAttribute('data-img'); img.alt=b.getAttribute('data-name');
+      nm.textContent=b.getAttribute('data-name');
+      ct.textContent=b.getAttribute('data-cat');
+      ds.textContent=b.getAttribute('data-sub')+' — made to order by Robin Sports with your colours, your logo and your labels. Pick your fabric and decoration in the design studio, or message us for a quote.';
+      if(dlg.showModal) dlg.showModal(); else dlg.setAttribute('open','');
+    });
+  });
+  document.getElementById('pClose').addEventListener('click',function(){ dlg.close(); });
+  dlg.addEventListener('click',function(e){ if(e.target===dlg) dlg.close(); });
+  document.getElementById('pDesign').addEventListener('click',function(){ dlg.close(); });
+})();
+</script>
+<script>
+/* design studio / quote builder */
+(function(){
+  var f=document.getElementById('qb'); if(!f) return;
+  f.addEventListener('submit',function(e){ e.preventDefault(); });
+  var $=function(id){return document.getElementById(id);};
+  var spots=document.querySelectorAll('#q-spots .spot');
+  spots.forEach(function(spot){
+    var cb=spot.querySelector('.spot-on'), sel=spot.querySelector('.spot-dec');
+    cb.addEventListener('change',function(){ sel.disabled=!cb.checked; build(); });
+    sel.addEventListener('change',build);
+  });
+  /* garment tiles + stage */
+  var tiles=document.querySelectorAll('#q-tiles .gtile');
+  tiles.forEach(function(t){
+    t.addEventListener('click',function(){
+      tiles.forEach(function(x){ x.setAttribute('aria-pressed','false'); });
+      t.setAttribute('aria-pressed','true');
+      $('q-garment').value=t.getAttribute('data-val');
+      $('q-stage-img').src=t.getAttribute('data-img');
+      $('q-stage-name').textContent=t.getAttribute('data-val');
+      build();
+    });
+  });
+  /* colour swatches */
+  document.querySelectorAll('.sw').forEach(function(sw){
+    sw.addEventListener('click',function(){ $('q-col1').value=sw.getAttribute('data-col'); build(); });
+  });
+  function build(){
+    var lines=[];
+    lines.push('ROBIN SPORTS — QUOTE REQUEST');
+    lines.push('Garment: '+$('q-garment').value);
+    var fab='Fabric: '+$('q-fabric').value; if($('q-weight').value.trim()) fab+=' ('+$('q-weight').value.trim()+')';
+    lines.push(fab);
+    lines.push('Fit / style: '+$('q-fit').value);
+    var col='Main colour: '+($('q-col1').value.trim()||'—'); if($('q-col2').value.trim()) col+=' | Contrast: '+$('q-col2').value.trim();
+    lines.push(col);
+    lines.push('Wash / finish: '+$('q-wash').value);
+    if($('q-brand').value.trim()) lines.push('Brand name: '+$('q-brand').value.trim());
+    var placed=[];
+    spots.forEach(function(spot){ var cb=spot.querySelector('.spot-on'); if(cb.checked) placed.push(cb.value+': '+spot.querySelector('.spot-dec').value); });
+    lines.push('Logo & decoration: '+(placed.length?placed.join(' | '):'—'));
+    var trims=[]; document.querySelectorAll('#q-trims input:checked').forEach(function(c){trims.push(c.value);});
+    lines.push('Trims & branding: '+(trims.length?trims.join(', '):'—'));
+    lines.push('Total pieces: '+($('q-qty').value||'—'));
+    lines.push('Sizes: '+($('q-sizes').value.trim()||'—'));
+    if($('q-notes').value.trim()) lines.push('Notes: '+$('q-notes').value.trim());
+    var txt=lines.join('\n');
+    $('q-spec').textContent=txt;
+    $('q-wa').href='https://wa.me/923043134792?text='+encodeURIComponent(txt);
+    $('q-mail').href='mailto:robinsports70@gmail.com?subject='+encodeURIComponent('Quote request — '+$('q-garment').value)+'&body='+encodeURIComponent(txt);
+  }
+  f.addEventListener('input',build); f.addEventListener('change',build); build();
+})();
+</script>
+<script>
+/* catalogue filter + search */
+(function(){
+  var grid=document.getElementById('catGrid'); if(!grid) return;
+  var cards=Array.prototype.slice.call(grid.children);
+  var tabs=document.querySelectorAll('#catTabs .tab');
+  var search=document.getElementById('catSearch');
+  var showing=document.getElementById('catShowing');
+  var cur='all';
+  function apply(){
+    var q=(search.value||'').toLowerCase().trim(); var n=0;
+    cards.forEach(function(c){
+      var ok=(cur==='all'||c.getAttribute('data-cat')===cur)&&(!q||c.getAttribute('data-name').indexOf(q)>-1);
+      c.style.display=ok?'':'none'; if(ok) n++;
+    });
+    showing.textContent= n? ('Showing 1–'+n+' of '+n+' products') : 'No products match — try another search';
+  }
+  tabs.forEach(function(t){ t.addEventListener('click',function(){
+    tabs.forEach(function(x){x.classList.remove('on');}); t.classList.add('on');
+    cur=t.getAttribute('data-f'); apply();
+  });});
+  search.addEventListener('input',apply); apply();
+})();
+</script>
+<script>
+/* decoration carousel */
+(function(){
+  var track=document.getElementById('carTrack'); if(!track) return;
+  var cards=Array.prototype.slice.call(track.children);
+  var count=document.getElementById('carCount'), bar=document.getElementById('carBar');
+  var cur=0, ticking=false;
+  function setOn(i){
+    cur=Math.max(0,Math.min(cards.length-1,i));
+    cards.forEach(function(c,j){ c.classList.toggle('on', j===cur); });
+    count.textContent=('0'+(cur+1)).slice(-2)+' / '+('0'+cards.length).slice(-2);
+    if(bar) bar.style.width=((cur+1)/cards.length*100)+'%';
+  }
+  function center(i){ var c=cards[i]; if(!c) return; track.scrollTo({left:c.offsetLeft-(track.clientWidth-c.offsetWidth)/2,behavior:'smooth'}); }
+  function fromScroll(){
+    var mid=track.scrollLeft+track.clientWidth/2, best=0, bd=1e9;
+    cards.forEach(function(c,i){ var m=c.offsetLeft+c.offsetWidth/2, d=Math.abs(m-mid); if(d<bd){bd=d;best=i;} });
+    setOn(best);
+  }
+  track.addEventListener('scroll',function(){ if(!ticking){ ticking=true; requestAnimationFrame(function(){ fromScroll(); ticking=false; }); } });
+  document.getElementById('carPrev').addEventListener('click',function(){ center(cur-1); });
+  document.getElementById('carNext').addEventListener('click',function(){ center(cur+1); });
+  setOn(0);
+})();
+</script>
+<script>
+/* quote + signup forms */
+(function(){
+  var qf=document.getElementById('qf');
+  if(qf) qf.addEventListener('submit',function(e){
+    e.preventDefault();
+    var lines=['ROBIN SPORTS — QUOTE REQUEST'];
+    var n=document.getElementById('qf-name').value.trim(); if(n) lines.push('Name: '+n);
+    var need=document.getElementById('qf-need').value.trim(); if(need) lines.push('What I need: '+need);
+    var m=document.getElementById('qf-mail').value.trim(); if(m) lines.push('Email: '+m);
+    window.open('https://wa.me/923043134792?text='+encodeURIComponent(lines.join('\n')),'_blank');
+  });
+  var su=document.getElementById('suForm');
+  if(su) su.addEventListener('submit',function(e){
+    e.preventDefault();
+    var em=document.getElementById('suMail').value.trim();
+    window.location.href='mailto:robinsports70@gmail.com?subject='+encodeURIComponent('Newsletter sign up')+'&body='+encodeURIComponent('Please add me to the Robin Sports mailing list: '+em);
+  });
+})();
+</script>
+
+
 </body>
 </html>
